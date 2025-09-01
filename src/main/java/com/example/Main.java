@@ -25,5 +25,6 @@ public class Main {
         Ejercicio9.ejercicio9();
         System.out.println("-----------------------------------------");
         Ejercicio10.ejercicio10();
+       
     }
 }
