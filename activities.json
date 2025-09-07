@@ -62,11 +62,6 @@ public class Main {
         "description": "Practica el uso correcto de identificadores siguiendo lowerCamelCase. Declara una variable llamada numeroDeEstudiantes con valor 30. Declara una variable llamada promedioCalificaciones con valor 8.5. Declara una variable llamada nombreCompleto con tu nombre completo. Declara una variable llamada esMayorDeEdad con valor true. Agrega comentarios explicando por qué estos nombres son válidos. Imprime todas las variables.",
         "solution": "src/main/java/com/example/Ejercicio3.java"
     },
-    {
-        "id": 4,
-        "description": "Declara y utiliza constantes con la palabra clave final. Declara una constante final double PI con valor 3.14159. Declara una constante final int DIAS_SEMANA con valor 7. Declara una constante final String NOMBRE_UNIVERSIDAD con el nombre de tu universidad. Calcula el área de un círculo usando PI y radio 5. Imprime las constantes y el resultado del cálculo.",
-        "solution": "src/main/java/com/example/Ejercicio4.java"
-    },
 
 package com.example;
 
@@ -87,11 +82,37 @@ System.out.println("esMayorDeEdad " + esMayorDeEdad);
     }
 }
 
+
+    {
+        "id": 4,
+        "description": "Declara y utiliza constantes con la palabra clave final. Declara una constante final double PI con valor 3.14159. Declara una constante final int DIAS_SEMANA con valor 7. Declara una constante final String NOMBRE_UNIVERSIDAD con el nombre de tu universidad. Calcula el área de un círculo usando PI y radio 5. Imprime las constantes y el resultado del cálculo.",
+        "solution": "src/main/java/com/example/Ejercicio4.java"
+    },
+
+
+
+
     {
         "id": 5,
         "description": "Utiliza diferentes métodos para mostrar información en consola. Usa System.out.print() para imprimir \"Hola\" sin salto de línea. Usa System.out.println() para imprimir \" Mundo\" con salto de línea. Usa System.out.printf() para imprimir \"Mi edad es %d años\", usando una variable edad. Imprime una línea separadora usando println().",
         "solution": "src/main/java/com/example/Ejercicio5.java"
     },
+
+package com.example;
+
+public class Main {
+    public static void main(String[] args) {
+
+int edad = 29;
+
+       
+        System.out.print("Hola");
+        System.out.println("\nMUNDO");
+        System.out.printf("Mi edad es %d años", edad);
+        System.out.println("-----------------------");
+    
+    }
+}
 
 
     {
