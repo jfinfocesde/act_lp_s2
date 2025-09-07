@@ -67,11 +67,33 @@ public class Main {
         "description": "Declara y utiliza constantes con la palabra clave final. Declara una constante final double PI con valor 3.14159. Declara una constante final int DIAS_SEMANA con valor 7. Declara una constante final String NOMBRE_UNIVERSIDAD con el nombre de tu universidad. Calcula el área de un círculo usando PI y radio 5. Imprime las constantes y el resultado del cálculo.",
         "solution": "src/main/java/com/example/Ejercicio4.java"
     },
+
+package com.example;
+
+public class Main {
+    public static void main(String[] args) {
+
+
+      int numeroDeEstudiantes = 30;
+      double promedioCalificaciones =  8.5;
+      String nombreCompleto = "Tania Jaqueline Alzate Gomez";
+      boolean esMayorDeEdad = true;
+
+      System.out.println("numeroDeEstudiantes " + numeroDeEstudiantes);
+System.out.println("promedioCalificaciones " + promedioCalificaciones);
+System.out.println("nombreCompleto " + nombreCompleto);
+System.out.println("esMayorDeEdad " + esMayorDeEdad);
+
+    }
+}
+
     {
         "id": 5,
         "description": "Utiliza diferentes métodos para mostrar información en consola. Usa System.out.print() para imprimir \"Hola\" sin salto de línea. Usa System.out.println() para imprimir \" Mundo\" con salto de línea. Usa System.out.printf() para imprimir \"Mi edad es %d años\", usando una variable edad. Imprime una línea separadora usando println().",
         "solution": "src/main/java/com/example/Ejercicio5.java"
     },
+
+
     {
         "id": 6,
         "description": "Captura información del usuario usando Scanner. Importa la clase Scanner (import java.util.Scanner;). Crea un objeto Scanner: Scanner scanner = new Scanner(System.in);. Solicita al usuario su nombre y guárdalo en una variable String. Solicita al usuario su edad y guárdala en una variable int. Solicita al usuario su altura y guárdala en una variable double. Imprime todos los datos capturados. Cierra el Scanner con scanner.close().",
