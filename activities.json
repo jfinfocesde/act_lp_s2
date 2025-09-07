@@ -66,6 +66,18 @@ System.out.println("Long: " + l) ;
         "description": "Declara y utiliza constantes con la palabra clave final. Declara una constante final double PI con valor 3.14159. Declara una constante final int DIAS_SEMANA con valor 7. Declara una constante final String NOMBRE_UNIVERSIDAD con el nombre de tu universidad. Calcula el área de un círculo usando PI y radio 5. Imprime las constantes y el resultado del cálculo.",
         "solution": "src/main/java/com/example/Ejercicio4.java"
     },
+        final double PI = 3.14159;
+        final int DIA_SEMANA = 7;
+        String NOMBRE_UNIVERSIDAD ="CESDE";
+
+        int radio = 5;
+        double area = PI * radio * radio;
+
+        System.out.println("El área del círculo es: " + area);
+        System.out.println("El valor de PI es: " + PI);
+        System.out.println("El día de la semana es: " + DIA_SEMANA);
+        System.out.println("El nombre de la universidad es: " + NOMBRE_UNIVERSIDAD);
+
     {
         "id": 5,
         "description": "Utiliza diferentes métodos para mostrar información en consola. Usa System.out.print() para imprimir \"Hola\" sin salto de línea. Usa System.out.println() para imprimir \" Mundo\" con salto de línea. Usa System.out.printf() para imprimir \"Mi edad es %d años\", usando una variable edad. Imprime una línea separadora usando println().",
