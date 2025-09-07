@@ -3,7 +3,12 @@
         "id": 1,
         "description": "Declara variables de diferentes tipos y asigna valores. Declara una variable int llamada edad y asígnale el valor 25. Declara una variable double llamada altura y asígnale el valor 1.75. Declara una variable String llamada nombre y asígnale tu nombre. Declara una variable boolean llamada esEstudiante y asígnale true. Imprime todas las variables por consola.",
         "solution": "src/main/java/com/example/Ejercicio1.java"
-    },
+    },    
+        int edad = 25
+        double altura = 1.75    
+        String nombre = jose leonardo saez
+        boolean esEstudiante = true
+    
     {
         "id": 2,
         "description": "Trabaja con todos los tipos de datos primitivos de Java. Declara una variable byte con valor 100. Declara una variable short con valor 1000. Declara una variable int con valor 50000. Declara una variable long con valor 1000000L. Declara una variable float con valor 3.14f. Declara una variable double con valor 2.71828. Declara una variable char con valor 'A'. Declara una variable boolean con valor false. Imprime cada variable mostrando su tipo y valor.",
