@@ -4,11 +4,59 @@
         "description": "Declara variables de diferentes tipos y asigna valores. Declara una variable int llamada edad y asígnale el valor 25. Declara una variable double llamada altura y asígnale el valor 1.75. Declara una variable String llamada nombre y asígnale tu nombre. Declara una variable boolean llamada esEstudiante y asígnale true. Imprime todas las variables por consola.",
         "solution": "src/main/java/com/example/Ejercicio1.java"
     },
+
+  package com.example;
+
+public class Main {
+    public static void main(String[] args) {
+
+int edad = 25;
+    double altura  = 1.75;
+    String nombre = "tania";
+    boolean estudiante = true;
+
+        System.out.println("edad");
+          System.out.println("nombre");
+            System.out.println("altura");
+              System.out.println("Tania");
+
+
+
+    }
+}
+    
     {
         "id": 2,
         "description": "Trabaja con todos los tipos de datos primitivos de Java. Declara una variable byte con valor 100. Declara una variable short con valor 1000. Declara una variable int con valor 50000. Declara una variable long con valor 1000000L. Declara una variable float con valor 3.14f. Declara una variable double con valor 2.71828. Declara una variable char con valor 'A'. Declara una variable boolean con valor false. Imprime cada variable mostrando su tipo y valor.",
         "solution": "src/main/java/com/example/Ejercicio2.java"
     },
+
+   package com.example;
+
+public class Main {
+    public static void main(String[] args) {
+
+       byte b = 100; 
+    short s = 1000;
+    int i = 50000;
+    long l = 1000000L;
+    float f  = 3.14f;
+    double d = 2.71828;
+    char c = 'A';
+    boolean bo = false;
+
+        System.out.println("byte " + b);
+          System.out.println("short " + s);
+            System.out.println("int " + i);
+              System.out.println("long " + l);
+               System.out.println("float " + f);
+                System.out.println("double" + d);
+ System.out.println("char" + "A");
+  System.out.println("boolean" + bo);
+
+
+    }
+    
     {
         "id": 3,
         "description": "Practica el uso correcto de identificadores siguiendo lowerCamelCase. Declara una variable llamada numeroDeEstudiantes con valor 30. Declara una variable llamada promedioCalificaciones con valor 8.5. Declara una variable llamada nombreCompleto con tu nombre completo. Declara una variable llamada esMayorDeEdad con valor true. Agrega comentarios explicando por qué estos nombres son válidos. Imprime todas las variables.",
