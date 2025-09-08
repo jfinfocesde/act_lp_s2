@@ -5,32 +5,32 @@ import java.util.Scanner;
 public class Ejercicio6 {
     public static void ejercicio6() {
 
-        //Variables
+        // Variables
         String nombre;
         int edad;
-        double altura; 
+        double altura;
 
-        //Entrada de datos
+        // Entrada de datos
         Scanner scanner = new Scanner(System.in);
 
-        //Solicitar nombre
+        // Solicitar nombre
         System.out.println("Escriba su nombre");
         nombre = scanner.nextLine();
 
-        //Solicitar edad
+        // Solicitar edad
         System.out.println("Ingrese su edad");
         edad = scanner.nextInt();
 
-        //Solicitar altura 
+        // Solicitar altura
         System.out.println("Ingrese su altura");
         altura = scanner.nextDouble();
 
-        //Imprimir datos
+        // Imprimir datos
         System.out.println(nombre);
         System.out.println(edad);
         System.out.println(altura);
 
-        //Cerrar Scanner
+        // Cerrar Scanner
         scanner.close();
     }
 }
