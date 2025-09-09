@@ -128,6 +128,23 @@ scanner.close();
         "description": "Practica diferentes formas de unir cadenas de texto. Declara String nombre = \"Juan\" y String apellido = \"Pérez\". Concatena usando el operador +: String nombreCompleto = nombre + \" \" + apellido. Concatena usando concat(): String saludo = \"Hola \".concat(nombreCompleto). Declara int edad = 20 y concatena: \"Tengo \" + edad + \" años\". Imprime todos los resultados mostrando las diferentes técnicas de concatenación.",
         "solution": "src/main/java/com/example/Ejercicio7.java"
     },
+public class CapturarDatos {
+    public static void main(String[] args) {
+String nombre = "Juan";
+    String apellido = "Perez";
+
+    String NombreCompleto = nombre + " " + apellido; 
+    System.out.println("Nombre completo: " + NombreCompleto);
+
+    int edad = 20;
+    String saludo = "Hola ".concat(NombreCompleto);
+    System.out.println( " tengo " + edad + " años");
+
+    
+
+    }
+}  
+
     {
         "id": 8,
         "description": "Demuestra el uso correcto de identificadores en Java. Declara variables con nombres válidos: miVariable, _contador, $precio, variable123. En comentarios, explica por qué son válidos (empiezan con letra, guión bajo o $, pueden contener números). En comentarios, lista nombres inválidos: 123variable, mi-variable, class, public. En comentarios, explica por qué son inválidos (empiezan con número, contienen guión, son palabras reservadas). Imprime las variables válidas.",
