@@ -192,6 +192,36 @@ System.out.println(" tengo " + edad + " años" );
         "description": "Demuestra el uso correcto de identificadores en Java. Declara variables con nombres válidos: miVariable, _contador, $precio, variable123. En comentarios, explica por qué son válidos (empiezan con letra, guión bajo o $, pueden contener números). En comentarios, lista nombres inválidos: 123variable, mi-variable, class, public. En comentarios, explica por qué son inválidos (empiezan con número, contienen guión, son palabras reservadas). Imprime las variables válidas.",
         "solution": "src/main/java/com/example/Ejercicio8.java"
     },
+
+
+package com.example;
+
+public class EjemploVariables {
+    public static void main(String[] args) {
+
+String miVariable = "hola"; /* Los nombres de variables deben comenzar con una letra minúscula. Si el nombre está compuesto por varias palabras, la primera letra de cada palabra debe ser mayúscula,(camelCase) */
+System.out.println("miVariable = " + miVariable);
+
+int _contador  = 10; /* permite comenzar con guion bajo  */
+System.out.println("_contador = " + _contador);
+
+double  $precio= 20.00; /* $ se usa para código generado automáticamente */
+System.out.println("$precio = " + $precio);
+
+int  variable123 = 12345; /* pueden contener números, siempre que no empiecen con un número. */
+ System.out.println("variable123 = " + variable123);
+
+
+/* /* /* 123variable  /* no puede empezar con número */
+/* mi-variable /* no se permiten espacios */ 
+/* class /* es una palabra clave usada para declarar clases */ 
+/* public /* es un modificador de acceso (public int edad;). */  
+  
+
+          }
+}
+
+
     {
         "id": 9,
         "description": "Aplica lowerCamelCase en nombres descriptivos y largos. Declara: int numeroDeEstudiantesEnLaClase = 25. Declara: double promedioDeCalificacionesDelSemestre = 8.7. Declara: String nombreCompletoDelProfesor = \"Dr. García\". Declara: boolean estudianteEstaAprobado = true. Imprime todas las variables con mensajes descriptivos que expliquen el uso de lowerCamelCase.",
