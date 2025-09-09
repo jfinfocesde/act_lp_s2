@@ -150,6 +150,38 @@ String nombre = "Juan";
         "description": "Demuestra el uso correcto de identificadores en Java. Declara variables con nombres válidos: miVariable, _contador, $precio, variable123. En comentarios, explica por qué son válidos (empiezan con letra, guión bajo o $, pueden contener números). En comentarios, lista nombres inválidos: 123variable, mi-variable, class, public. En comentarios, explica por qué son inválidos (empiezan con número, contienen guión, son palabras reservadas). Imprime las variables válidas.",
         "solution": "src/main/java/com/example/Ejercicio8.java"
     },
+public class EjemploVariables {
+    public static void main(String[] args) {
+
+      String miVariable = "Texto "; /*Los nombres de variables deben comenzar con una letra minúscula y separa con mayuscula (camellcay). */    
+        System.out.println(miVariable );
+      
+        int _contador = 0; /* es una variable de tipo entera permite comenzar con guion bajo */
+      System.out.println(_contador);
+
+      double $precio = 19.99;/*  se unsa para  codigo generado automaticamente*/
+      System.out.println($precio);  
+
+     
+      int variable123 = 10; /*se permite usar numeros pero no al inicio */
+      System.out.println(variable123);
+    
+      /*123variables = 5;/*no puede empezar con numeros*/
+
+     /*mi_variable */ /*no se permiten espacios */
+
+    /*class /*palabra clave para declarar clases*/
+
+    /*public *//*palabra clave para declarar metodos*/
+
+
+
+
+    }
+}  
+
+
+
     {
         "id": 9,
         "description": "Aplica lowerCamelCase en nombres descriptivos y largos. Declara: int numeroDeEstudiantesEnLaClase = 25. Declara: double promedioDeCalificacionesDelSemestre = 8.7. Declara: String nombreCompletoDelProfesor = \"Dr. García\". Declara: boolean estudianteEstaAprobado = true. Imprime todas las variables con mensajes descriptivos que expliquen el uso de lowerCamelCase.",
