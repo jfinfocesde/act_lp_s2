@@ -3,11 +3,11 @@ package com.example;
 import java.util.Scanner;
 
 public class Ejercicio6 {
-    public static void ejercicio6() {
+    public static void ejercicio6(Scanner sc) {
         System.out.println("Ejercicio 6");
         // tu código aquí
 
-         // Crear objeto Scanner
+        // Crear objeto Scanner
         Scanner scanner = new Scanner(System.in);
 
         // Pedir datos al usuario
@@ -25,9 +25,6 @@ public class Ejercicio6 {
         System.out.println("Tu nombre es: " + nombre);
         System.out.println("Tu edad es: " + edad);
         System.out.println("Tu altura es: " + altura);
-
-        // Cerrar el Scanner
-        //scanner.close();
 
     }
 }

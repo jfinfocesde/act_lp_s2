@@ -21,4 +21,3 @@ public class Ejercicio4 {
         System.out.println("Área de un círculo con radio " + radio + " es: " + area);
     }
 }
-

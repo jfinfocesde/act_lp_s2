@@ -16,6 +16,6 @@ public class Ejercicio9 {
         System.out.println("Promedio de calificaciones del semestre: " + promedioDeCalificacionesDelSemestre);
         System.out.println("Nombre completo del profesor: " + nombreCompletoDelProfesor);
         System.out.println("¿El estudiante está aprobado?: " + estudianteEstaAprobado);
-        
+
     }
 }

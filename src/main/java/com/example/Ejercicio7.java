@@ -5,7 +5,7 @@ public class Ejercicio7 {
         System.out.println("Ejercicio 7");
         // tu código aquí
 
-         // 1) Declaración de cadenas
+        // 1) Declaración de cadenas
         String nombre = "Juan";
         String apellido = "Pérez";
 
@@ -25,6 +25,6 @@ public class Ejercicio7 {
         System.out.println("Nombre completo (+): " + nombreCompleto);
         System.out.println("Saludo (concat): " + saludo);
         System.out.println(fraseEdad);
-        
+
     }
 }

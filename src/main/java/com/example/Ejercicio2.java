@@ -4,7 +4,7 @@ public class Ejercicio2 {
     public static void ejercicio2() {
         System.out.println("Ejercicio 2");
         // tu código aquí
-       
+
         // Declaración de variables de tipos primitivos
         byte b = 100;
         short s = 1000;
@@ -26,5 +26,3 @@ public class Ejercicio2 {
         System.out.println("boolean: " + flag);
     }
 }
-
-    

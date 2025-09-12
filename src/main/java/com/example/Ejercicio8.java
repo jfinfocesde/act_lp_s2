@@ -19,18 +19,16 @@ public class Ejercicio8 {
         String variable123 = "ok";
 
         // ---- Identificadores INVÁLIDOS (SOLO COMENTADOS) ----
-        // 123variable  -> inválido: NO puede empezar con número
-        // mi-variable  -> inválido: NO se permiten guiones (usa camelCase o _)
-        // class        -> inválido: es una PALABRA RESERVADA de Java
-        // public       -> inválido: también es PALABRA RESERVADA
+        // 123variable -> inválido: NO puede empezar con número
+        // mi-variable -> inválido: NO se permiten guiones (usa camelCase o _)
+        // class -> inválido: es una PALABRA RESERVADA de Java
+        // public -> inválido: también es PALABRA RESERVADA
 
         // Imprimir variables válidas
         System.out.println("miVariable = " + miVariable);
         System.out.println("_contador = " + _contador);
         System.out.println("$precio = " + $precio);
         System.out.println("variable123 = " + variable123);
-        
+
     }
 }
-
-    

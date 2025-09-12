@@ -19,6 +19,3 @@ public class Ejercicio5 {
         System.out.println("--------------------------");
     }
 }
-
-    
-
