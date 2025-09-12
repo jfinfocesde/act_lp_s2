@@ -5,20 +5,16 @@ import java.util.Scanner;
 public class Ejercicio6 {
     public static void ejercicio6(Scanner sc) {
         System.out.println("Ejercicio 6");
-        // tu código aquí
-
-        // Crear objeto Scanner
-        Scanner scanner = new Scanner(System.in);
 
         // Pedir datos al usuario
         System.out.print("Ingresa tu nombre: ");
-        String nombre = scanner.nextLine();
+        String nombre = sc.nextLine();
 
         System.out.print("Ingresa tu edad: ");
-        int edad = scanner.nextInt();
+        int edad = sc.nextInt();
 
         System.out.print("Ingresa tu altura: ");
-        double altura = scanner.nextDouble();
+        double altura = sc.nextDouble();
 
         // Mostrar datos capturados
         System.out.println("---------------------------");

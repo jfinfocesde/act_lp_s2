@@ -11,15 +11,14 @@ public class Ejercicio10 {
     final double PRECIO_PRODUCTO = 15.99;
     final int IVA_PORCENTAJE = 16;
 
-    // Crear objeto Scanner
-    Scanner scanner = new Scanner(System.in);
-
+    sc.nextLine();
     // Pedir datos al usuario
     System.out.print("Ingresa tu nombre: ");
-    String nombreCliente = scanner.nextLine();
+    String nombreCliente = sc.nextLine();
 
     System.out.print("Ingresa la cantidad de productos: ");
-    int cantidad = scanner.nextInt();
+    int cantidad = sc.nextInt();
+    sc.nextLine(); // Limpiar el buffer
 
     // Calcular subtotal, iva y total
     double subtotal = PRECIO_PRODUCTO * cantidad;
