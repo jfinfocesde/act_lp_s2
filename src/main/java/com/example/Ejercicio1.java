@@ -4,12 +4,12 @@ public class Ejercicio1 {
     public static void ejercicio1() {
         System.out.println("Ejercicio 1");
 
- int edad = 25;                    // variable de tipo int
-        double altura = 1.75;              // variable de tipo double
-        String nombre = "Tania Alzate";    // variable de tipo String
-        boolean esEstudiante = true;      // variable de tipo boolean
+        int edad = 25;                    
+        double altura = 1.75;              
+        String nombre = "Tania Alzate";   
+        boolean esEstudiante = true;     
         
-        // Impresión de los valores de las variables
+     
         System.out.println("Edad: " + edad);
         System.out.println("Altura: " + altura);
         System.out.println("Nombre: " + nombre);
