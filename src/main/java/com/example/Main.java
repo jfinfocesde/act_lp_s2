@@ -1,5 +1,4 @@
 package com.example;
-
 public class Main {
 
     public static void main(String[] args) {        
@@ -25,5 +24,6 @@ public class Main {
         Ejercicio9.ejercicio9();
         System.out.println("-----------------------------------------");
         Ejercicio10.ejercicio10();
+        System.out.println("-----------------------------------------");
     }
 }
