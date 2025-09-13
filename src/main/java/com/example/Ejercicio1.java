@@ -12,6 +12,11 @@ public class Ejercicio1 {
     System.out.println(altura);
     System.out.println(esEstudiante);
     System.out.println(nombre);    
-         
+
+    
     }
+
+public static void main (String[] args) {
+    ejercicio1(); //Llamada al metodo de ejercicio1
 }
+    }
