@@ -1,8 +1,12 @@
 package com.example;
 
+import java.util.Scanner;
+
 public class Main {
 
-    public static void main(String[] args) {        
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
         System.out.println("Actividad 1");
         System.out.println("");
         System.out.println("-----------------------------------------");
@@ -16,7 +20,7 @@ public class Main {
         System.out.println("-----------------------------------------");
         Ejercicio5.ejercicio5();
         System.out.println("-----------------------------------------");
-        Ejercicio6.ejercicio6();
+        Ejercicio6.ejercicio6(scanner);
         System.out.println("-----------------------------------------");
         Ejercicio7.ejercicio7();
         System.out.println("-----------------------------------------");
@@ -24,6 +28,8 @@ public class Main {
         System.out.println("-----------------------------------------");
         Ejercicio9.ejercicio9();
         System.out.println("-----------------------------------------");
-        Ejercicio10.ejercicio10();
+        Ejercicio10.ejercicio10(scanner);
+
+        scanner.close();
     }
 }
