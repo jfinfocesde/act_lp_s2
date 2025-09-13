@@ -4,13 +4,30 @@ public class Ejercicio6 {
     public static void ejercicio6() {
         System.out.println("Ejercicio 6");
         // tu código aquí
-    
-int edad = 28;
-     
-        System.out.print("Hola" );
-       System.out.println("\nMundo");
-       System.out.printf("Mi edad es %d años", edad);
-       System.out.println("-----------------------");
 
-    {
 
+import java.util.Scanner;
+
+public class CapturarDatos {
+  public static void main(String[] args) {
+
+    Scanner scanner = new Scanner(System.in);
+ 
+         System.out.print("Ingrese su nombre: ");
+        String nombre = scanner.nextLine();
+ 
+         System.out.print("Ingrese su edad: ");
+        int edad = scanner.nextInt();
+ 
+         System.out.print("Ingrese su altura:");
+        double altura = scanner.nextDouble();
+ 
+ System.out.println("\n--- Datos Capturados ---");
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Edad: " + edad + " años");
+        System.out.println("Altura: " + altura + " m");
+ 
+scanner.close(); 
+
+  }
+}
