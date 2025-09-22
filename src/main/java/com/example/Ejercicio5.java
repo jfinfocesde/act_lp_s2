@@ -6,7 +6,7 @@ public class Ejercicio5 {
       int edad = 21; 
     System.out.print("Hola"); 
     System.out.println(" Mundo"); 
-    System.out.printf("Mi edad es %d años\n", edad); 
+    System.out.printf("Mi edad es 47 años\n", edad); 
     System.out.println("--------------------");
     }
 }
