@@ -5,7 +5,7 @@ public class Ejercicio1 {
         System.out.println("Ejercicio 1");
         int edad = 25; 
     double altura = 1.75; 
-    String nombre = "Carlos"; 
+    String nombre = "Melby"; 
     boolean esEstudiante = true; 
     System.out.println("Edad: " + edad); 
     System.out.println("Altura: " + altura); 
