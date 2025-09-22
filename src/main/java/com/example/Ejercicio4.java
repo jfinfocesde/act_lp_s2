@@ -10,7 +10,7 @@ public class Ejercicio4 {
     double areaCirculo = PI * radio * radio; 
     System.out.println("PI: " + PI); 
     System.out.println("Días de la semana: " + DIAS_SEMANA); 
-    System.out.println("Nombre universidad: " + NOMBRE_UNIVERSIDAD); 
+    System.out.println("Nombre universidad: " + SAN_BUENAVENTURA); 
     System.out.println("Área del círculo: " + areaCirculo); 
 
     }
