@@ -5,7 +5,7 @@ public class Ejercicio3 {
         System.out.println("Ejercicio 3");
         int numeroDeEstudiantes = 30; // nombre descriptivo, lowerCamelCase 
     double promedioCalificaciones = 8.5; // nombre descriptivo, lowerCamelCase 
-    String nombreCompleto = "Carlos García"; // nombre descriptivo, lowerCamelCase 
+    String nombreCompleto = "Melby Archbold"; // nombre descriptivo, lowerCamelCase 
     boolean esMayorDeEdad = true; // nombre descriptivo, lowerCamelCase 
     System.out.println(numeroDeEstudiantes); 
     System.out.println(promedioCalificaciones); 
