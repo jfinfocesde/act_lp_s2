@@ -3,7 +3,11 @@ package com.example;
 public class Ejercicio3 {
     public static void ejercicio3() {
         System.out.println("Ejercicio 3");
+<<<<<<< HEAD
         // tu código aqui
+=======
+        // tu código aquí
+>>>>>>> aa69d942fad4d8bbc9ad63ce8abf2e869ddce3e9
         int numeroDeEstudiantes = 30;
         System.out.println("El numero de estudiantes es " + numeroDeEstudiantes);
 

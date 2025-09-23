@@ -3,7 +3,11 @@ package com.example;
 public class Ejercicio7 {
     public static void ejercicio7() {
         System.out.println("Ejercicio 7");
+<<<<<<< HEAD
         // tu código aqui
+=======
+        // tu código aquí
+>>>>>>> aa69d942fad4d8bbc9ad63ce8abf2e869ddce3e9
         String nombre = "Juan";
         String apellido = "Perez";
         String nombreCompleto = nombre + " " + apellido;
