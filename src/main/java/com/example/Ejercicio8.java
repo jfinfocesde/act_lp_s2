@@ -12,7 +12,7 @@ public class Ejercicio8 {
         // '_contador' es válido porque los identificadores pueden empezar con un guion bajo.
         System.out.println("esto es un " + _contador);
 
-        double $precio = 1,5;
+        double $precio = 1.5;
         // '$precio' es válido porque los identificadores pueden empezar con el signo de dólar.
         System.out.println("esto es un " + $precio);
 
@@ -20,6 +20,10 @@ public class Ejercicio8 {
         // 'variable123' es válido porque puede contener números, siempre que no sea al inicio.
         System.out.println("esto es una " + variable123);
         
+        // Nombres inválidos:
+        // '123variable': No es válido porque no puede empezar con un número.
+        // 'mi-variable': No es válido porque el guion '-' no es un carácter permitido.
+        // 'class' y 'public': No son válidos porque son palabras clave reservadas de Java.
         
     }
 }
