@@ -9,7 +9,7 @@ public class Ejercicio5 {
         System.out.println("Mundo ");
 
         int edad = 30;
-        System.out.printf("Mi edad es %d", edad);
+        System.out.printf("Mi edad es %d ", edad);
 
         System.out.println();
     }

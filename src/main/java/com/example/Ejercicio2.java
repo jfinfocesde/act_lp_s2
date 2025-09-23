@@ -3,7 +3,7 @@ package com.example;
 public class Ejercicio2 {
     public static void ejercicio2() {
         System.out.println("Ejercicio 2");
-        // tu código aquí
+        // tu código aqui
         Byte valor1 = 100;
         System.out.println("El valor de la variable byte es " + valor1);
 

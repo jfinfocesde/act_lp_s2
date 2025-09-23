@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Ejercicio6 {
     public static void ejercicio6() {
         System.out.println("Ejercicio 6");
-        // tu código aquí
+        // tu código aqui
         System.out.println("Ingrese su nombre ");
         Scanner scanner = new Scanner(System.in);
         String nombre = scanner.nextLine();
