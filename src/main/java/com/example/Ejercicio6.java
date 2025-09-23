@@ -15,6 +15,5 @@ public class Ejercicio6 {
         double estatura = scanner.nextDouble();
         System.out.println("tu nombre es " + nombre + ", tienes " + edad + " años y mides " + estatura + " metros");
         scanner.close();
-
     }
 }
