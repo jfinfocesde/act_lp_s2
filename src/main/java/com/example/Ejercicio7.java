@@ -3,6 +3,21 @@ package com.example;
 public class Ejercicio7 {
     public static void ejercicio7() {
         System.out.println("Ejercicio 7");
-        // tu código aquí
+    
+public class CapturarDatos {
+    public static void main(String[] args) {
+String nombre = "Juan";
+    String apellido = "Perez";
+
+    String NombreCompleto = nombre + " " + apellido; 
+    System.out.println("Nombre completo: " + NombreCompleto);
+
+    int edad = 20;
+    String saludo = "Hola ".concat(NombreCompleto);
+    System.out.println( " tengo " + edad + " años");
+
+    
+
     }
-}
+}      // tu código aquí
+    
