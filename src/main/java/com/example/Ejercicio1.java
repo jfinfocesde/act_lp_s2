@@ -1,22 +1,16 @@
-package com.example;
-
-public class Ejercicio1 {
-    public static void ejercicio1() {
-        System.out.println("Ejercicio 1");
-        // tint edad = 25;
+public class VariablesEjemplo {
+    public static void main(String[] args) {
+       
+        int edad = 25;
         double altura = 1.75;
-        String nombre = "jose leonardo saez";
+        String nombre = "Jose Leonardo Saez"; 
         boolean esEstudiante = true;
 
-    System.out.println(edad);
-    System.out.println(altura);
-    System.out.println(esEstudiante);
-    System.out.println(nombre);    
-
-    
+        
+        System.out.println("Edad: " + edad);
+        System.out.println("Altura: " + altura);
+        System.out.println("Nombre: " + nombre);
+        System.out.println("¿Es estudiante?: " + esEstudiante);
     }
-
-public static void main (String[] args) {
-    ejercicio1(); //Llamada al metodo de ejercicio1
 }
-    }
+
