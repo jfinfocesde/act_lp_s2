@@ -1,26 +1,9 @@
-paackege com.example;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+packege com.example;
 import java.util.Scanner;
-
 public class Ejercicio10 {
+public static void main(String[] args) {  
 Synstem.out.printl("Ejercicio10");
 
-
-    public static void main(String[] args) {
         // Declaración de constantes
         final double precioProducto = 15.99;
         final int ivaPorcentaje = 16;
