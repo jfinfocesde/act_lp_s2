@@ -5,9 +5,6 @@ public class Ejercicio9 {
         System.out.println("Ejercicio 9");
        import java.util.Scanner;
 
-public class lowerCamelCase {
-
-  public static void main(String[] args) {
    
     int numeroDeEstudianteDeLaClase = 25;
     double promedioDeCalifiacionesDelSemestre = 8.7;
@@ -18,8 +15,6 @@ public class lowerCamelCase {
     System.out.println("El promedio de calificaciones del semestre es:" + promedioDeCalifiacionesDelSemestre);
     System.out.println("El nombre completo del profesor es:" + nombreCompletoDelProfesor);
     System.out.println("¿Los estudiantes están aprobado?:" + estudianteAprobado);
-  }
-}
-
+  
     }
 }
