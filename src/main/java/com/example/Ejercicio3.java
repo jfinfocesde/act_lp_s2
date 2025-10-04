@@ -3,10 +3,6 @@ package com.example;
 public class Ejercicio3 {
     public static void ejercicio3() {
         System.out.println("Ejercicio 3");
-       package com.example;
-
-public class Main {
-    public static void main(String[] args) {
 
 
       int numeroDeEstudiantes = 30;
@@ -22,5 +18,3 @@ System.out.println("esMayorDeEdad " + esMayorDeEdad);
     }
 }
 
-    }
-}
