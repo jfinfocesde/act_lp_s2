@@ -763,79 +763,79 @@
     "evaluatedAt": "2025-10-04T03:51:04.740Z",
     "evaluatedBy": "Sistema de Evaluación Masiva"
   },
-  "galactus88/act_lp_s2": {
-    "repositoryUrl": "galactus88/act_lp_s2",
-    "studentName": "JOAN MONTOYA MARULANA",
+  "duacon/act_lp_s2": {
+    "repositoryUrl": "duacon/act_lp_s2",
+    "studentName": "Eva Estefania Duarte Contreras",
     "activities": [
       {
         "solutionFile": "src/main/java/com/example/Ejercicio1.java",
         "score": 3,
         "fileFound": true,
-        "feedback": "El código funciona, pero no hay una descripción clara de la actividad realizada, por lo que es dificil evaluar completamente. Se recomienda nombrar las variables siguiendo convenciones de Java (camelCase) y agregar comentarios para explicar el propósito del código."
+        "feedback": "El código cumple con mostrar variables. Sería bueno que la descripción de la actividad fuera más específica para entender el objetivo completo. Podría usar comentarios para documentar mejor el código."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio2.java",
-        "score": 5,
+        "score": 4,
         "fileFound": true,
-        "feedback": "La actividad se resuelve correctamente declarando e imprimiendo variables de los tipos primitivos requeridos. El código es claro y conciso."
+        "feedback": "El código funciona correctamente y muestra los tipos de datos primitivos. Se podría mejorar la legibilidad utilizando nombres de variables más descriptivos y evitar el método `ejercicio2` directamente en la clase."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio3.java",
         "score": 3,
         "fileFound": true,
-        "feedback": "El código cumple con imprimir las variables, pero la actividad no especifica qué debe hacer el programa realmente. Se podrían agregar comentarios explicando el propósito del código y usar nombres de variables más descriptivos."
+        "feedback": "El código funciona, pero la actividad no está definida, por lo que es difícil saber si cumple el objetivo. Se podrían mejorar la legibilidad usando nombres de variables más descriptivos y separar la declaración e inicialización de las variables de la impresión."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio4.java",
         "score": 3,
         "fileFound": true,
-        "feedback": "El código cumple con la declaración de constantes, pero la descripción de la actividad está indefinida, lo que dificulta determinar si la solución es completa. Considera agregar comentarios explicando el propósito de cada constante."
+        "feedback": "El código funciona y calcula el área, pero la descripción de la actividad está ausente, lo que dificulta evaluar si se cumplió el objetivo. La función `ejercicio4` debería tener un nombre más descriptivo de su función (ej: `calcularAreaCirculo`)."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio5.java",
         "score": 2,
         "fileFound": true,
-        "feedback": "El código tiene errores de estilo y no cumple con ningún requerimiento específico.  Falta la definición del problema a resolver y el código no realiza ninguna tarea útil más allá de imprimir texto."
+        "feedback": "El código aparentemente imprime mensajes en consola, pero la descripción de la actividad es indefinida, por lo que es difícil determinar si la resuelve correctamente. Se sugiere agregar una descripción clara de la actividad para una evaluación más precisa."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio6.java",
         "score": 4,
         "fileFound": true,
-        "feedback": "El código funciona y cumple con la solicitud. Se recomienda mejorar la gestión de excepciones para evitar errores si el usuario ingresa un tipo de dato incorrecto, y usar nombres de variables más descriptivos."
+        "feedback": "El código resuelve la actividad, solicitando y mostrando la información del usuario. Se podría mejorar la presentación de la salida, combinando los datos en una sola frase para mayor claridad."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio7.java",
-        "score": 4,
+        "score": 3,
         "fileFound": true,
-        "feedback": "El código funciona correctamente y realiza la concatenación de strings como se espera.  Podría mejorar la modularidad dividiendo la lógica en funciones más pequeñas y considerar usar StringBuilder para concatenaciones complejas para optimizar el rendimiento."
+        "feedback": "El código funciona y realiza concatenaciones de strings, pero la falta de una descripción de la actividad dificulta evaluar si cumple con los requisitos específicos. Se recomienda seguir las convenciones de nombrado de métodos (camelCase)."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio8.java",
-        "score": 4,
+        "score": 5,
         "fileFound": true,
-        "feedback": "El código demuestra entendimiento de las reglas de nombres de variables en Java. Sin embargo, la actividad podría haber sido más desafiante pidiendo al estudiante que identifique errores en fragmentos de código en lugar de solo explicar las reglas."
+        "feedback": "El código demuestra una comprensión correcta de las reglas para nombrar variables en Java. La explicación en los comentarios es clara y precisa."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio9.java",
         "score": 2,
         "fileFound": true,
-        "feedback": "El código simplemente imprime variables y sus valores. Falta la descripción de la actividad para determinar si se resuelve el problema propuesto. Se necesita implementar la lógica específica que se solicita en la descripción del ejercicio."
+        "feedback": "El código muestra variables y las imprime, pero no hay una descripción de la actividad, lo que dificulta la evaluación completa. Falta la lógica específica que debería resolver el ejercicio."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio10.java",
         "score": 4,
         "fileFound": true,
-        "feedback": "El código funciona correctamente y está bien estructurado. Se podría mejorar la validación de la entrada (cantidad) para evitar errores si el usuario ingresa un valor no numérico."
+        "feedback": "El código funciona correctamente y cumple con el objetivo. Sería bueno encapsular la lógica de cálculo en métodos separados para mejorar la legibilidad y reutilización del código."
       }
     ],
-    "overallScore": 3.4,
+    "overallScore": 3.3,
     "totalActivities": 10,
     "completedActivities": 10,
-    "summary": "Buen trabajo general. Completó 10/10 actividades (100%) con una calificación promedio de 3.4/5. Hay oportunidades de mejora en algunos aspectos.",
+    "summary": "Buen trabajo general. Completó 10/10 actividades (100%) con una calificación promedio de 3.3/5. Hay oportunidades de mejora en algunos aspectos.",
     "recommendations": [
       "Revisar y mejorar las actividades con calificación baja"
     ],
-    "evaluatedAt": "2025-10-04T03:55:08.535Z",
+    "evaluatedAt": "2025-10-04T03:56:08.322Z",
     "evaluatedBy": "Sistema de Evaluación Masiva"
   }
 }
