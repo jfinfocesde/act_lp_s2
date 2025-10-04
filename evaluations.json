@@ -155,79 +155,77 @@
   },
   "Guelo708/act_lp_s2": {
     "repositoryUrl": "Guelo708/act_lp_s2",
-    "studentName": "Estudiante desconocido",
+    "studentName": "Miguel Eduardo Hernández Hernández",
     "activities": [
       {
         "solutionFile": "src/main/java/com/example/Ejercicio1.java",
         "score": 4,
         "fileFound": true,
-        "feedback": "El código resuelve correctamente el ejercicio y es legible. Se podría mejorar la encapsulación creando una clase y moviendo el método `ejercicio1` dentro de ella. También se podría hacer uso de `printf` o `String.format` para formatear la salida de manera más eficiente."
+        "feedback": "El código cumple con mostrar las variables requeridas. Sería bueno agregar comentarios para explicar el propósito del código y quizás usar nombres de variables más descriptivos."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio2.java",
-        "score": 1,
+        "score": 5,
         "fileFound": true,
-        "feedback": "El código proporciona la estructura básica pero no implementa la funcionalidad requerida para el ejercicio. Se necesita agregar la lógica específica del problema a resolver dentro del método `ejercicio2()`."
+        "feedback": "El código es correcto, funcional y demuestra el uso adecuado de los tipos de datos primitivos en Java. La solución es completa y legible."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio3.java",
-        "score": 1,
+        "score": 4,
         "fileFound": true,
-        "feedback": "El código provee la estructura inicial pero no implementa la funcionalidad requerida para resolver el ejercicio. Se necesita agregar la lógica específica dentro del método `ejercicio3()`."
+        "feedback": "La actividad es simple pero correcta. Se declaran e imprimen variables de diferentes tipos usando `lowerCamelCase`. Considera agregar comentarios explicando el propósito de las variables para mejorar la legibilidad."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio4.java",
-        "score": 1,
+        "score": 3,
         "fileFound": true,
-        "feedback": "La actividad no está resuelta. Solo presenta la estructura inicial con un `System.out.println`. Falta la lógica principal del ejercicio."
+        "feedback": "El código funciona pero la declaración y cálculo del área del círculo no es correcta (falta elevar el radio al cuadrado). Además, la función debería recibir el radio como parámetro para mayor flexibilidad."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio5.java",
-        "score": 1,
+        "score": 3,
         "fileFound": true,
-        "feedback": "La solución provee la estructura básica, pero no implementa la lógica requerida para resolver el ejercicio. Falta implementar la funcionalidad principal dentro del método `ejercicio5()`."
+        "feedback": "El código funciona y produce la salida esperada, pero la descripción de la actividad está indefinida, lo que dificulta evaluar su completitud.  Podría mejorar la organización del código comentando su propósito."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio6.java",
-        "score": 1,
+        "score": 4,
         "fileFound": true,
-        "feedback": "El código proporciona la estructura básica, pero no implementa ninguna funcionalidad para resolver la actividad (que está indefinida). Falta la lógica principal del ejercicio."
+        "feedback": "La solución funciona correctamente y cumple con lo esperado. Se podría mejorar la gestión de recursos (Scanner) utilizando un bloque try-with-resources para asegurar que se cierre el Scanner incluso si ocurre una excepción. Considera también manejar las posibles excepciones que se pueden dar al ingresar los datos."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio7.java",
-        "score": 1,
+        "score": 3,
         "fileFound": true,
-        "feedback": "El código proporcionado solo contiene la estructura básica del ejercicio, pero no implementa la lógica o funcionalidad requerida.  Se necesita agregar la solución al problema planteado."
+        "feedback": "El código funciona y realiza las operaciones básicas de concatenación de strings. Sin embargo, la actividad carece de una descripción clara, lo cual dificulta evaluar si cumple con todos los requisitos esperados. Se podría mejorar la modularidad separando la lógica en funciones más pequeñas y utilizando constantes para los strings en lugar de hardcodearlos."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio8.java",
-        "score": 1,
+        "score": 5,
         "fileFound": true,
-        "feedback": "La actividad no resuelve ningún problema específico. Solo imprime \"Ejercicio 8\" y contiene un comentario placeholder. Falta la implementación requerida en la descripción de la actividad (que está ausente)."
+        "feedback": "Excelente demostración de identificadores válidos e inválidos en Java. El código es claro, conciso y cumple con el objetivo de la actividad. Bien hecho."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio9.java",
-        "score": 1,
+        "score": 5,
         "fileFound": true,
-        "feedback": "La actividad no resuelve ningún problema específico. Solo imprime \"Ejercicio 9\" y deja un comentario para el código faltante.  Necesitas implementar la lógica solicitada en la descripción del ejercicio."
+        "feedback": "La solución es correcta y sigue las buenas prácticas de nomenclatura (lowerCamelCase). El código es limpio, legible y funcional."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio10.java",
-        "score": 1,
+        "score": 4,
         "fileFound": true,
-        "feedback": "El archivo solo contiene la estructura básica y un mensaje de \"Ejercicio 10\". No hay implementación de la lógica solicitada en la descripción de la actividad, por lo que la solución está incompleta. Se debe implementar la funcionalidad requerida."
+        "feedback": "El código funciona correctamente y cumple con los requisitos básicos. Considera usar `printf` para formatear la salida de los precios y evitar la pérdida de precisión con `double` al trabajar con dinero (puedes usar `BigDecimal`)."
       }
     ],
-    "overallScore": 1.3,
+    "overallScore": 4,
     "totalActivities": 10,
     "completedActivities": 10,
-    "summary": "Necesita mejorar. Completó 10/10 actividades (100%) con una calificación promedio de 1.3/5. Se recomienda revisar los conceptos fundamentales.",
+    "summary": "Excelente trabajo. Completó 10/10 actividades (100%) con una calificación promedio de 4.0/5. Demuestra buen dominio de los conceptos.",
     "recommendations": [
-      "Revisar y mejorar las actividades con calificación baja",
-      "Enfocarse en mejorar la documentación y comentarios del código",
-      "Aplicar mejores prácticas de programación"
+      "Continuar con el excelente trabajo y mantener la calidad del código"
     ],
-    "evaluatedAt": "2025-09-20T03:42:26.954Z",
+    "evaluatedAt": "2025-10-04T03:41:54.093Z",
     "evaluatedBy": "Sistema de Evaluación Masiva"
   },
   "miguelcogollo10-ops/act_lp_s2": {
