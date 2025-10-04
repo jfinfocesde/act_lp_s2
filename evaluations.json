@@ -611,79 +611,81 @@
     "evaluatedAt": "2025-10-04T03:40:52.978Z",
     "evaluatedBy": "Sistema de Evaluación Masiva"
   },
-  "Juan04786/act_lp_s2": {
-    "repositoryUrl": "Juan04786/act_lp_s2",
-    "studentName": "Juan Carlos Osorio",
+  "talzateg-netizen/act_lp_s2": {
+    "repositoryUrl": "talzateg-netizen/act_lp_s2",
+    "studentName": "Tania Jaqueline Alzate Gomez",
     "activities": [
       {
         "solutionFile": "src/main/java/com/example/Ejercicio1.java",
-        "score": 3,
+        "score": 4,
         "fileFound": true,
-        "feedback": "El código parece funcionar, pero tiene un `package com.example;` duplicado y la primera función `ejercicio1` solo contiene un `System.out.println` innecesario. Elimina la redundancia y usa buenas prácticas nombrando los metodos en ingles (ej: `exercise1`)."
+        "feedback": "El código funciona y muestra las variables correctamente. Sería mejor si el enunciado describiera qué se esperaba del ejercicio 1, pero dado que no hay descripción, el código es funcional y claro. Considera agregar comentarios más descriptivos para mejor claridad."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio2.java",
         "score": 4,
         "fileFound": true,
-        "feedback": "El código resuelve la actividad mostrando los diferentes tipos de datos primitivos. Sin embargo, la función `ejercicio2` no es llamada desde ningún otro punto del código, lo que limita su funcionalidad real. Se recomienda crear un método main que haga uso de la función creada."
+        "feedback": "El código cumple con la tarea de declarar e imprimir variables de diferentes tipos. Podría mejorar la descripción de la actividad dentro del código como comentarios y la encapsulación en clases con métodos más descriptivos."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio3.java",
-        "score": 3,
+        "score": 1,
         "fileFound": true,
-        "feedback": "El código muestra el uso de variables con tipos de datos básicos, pero no se describe el problema a resolver.  Sería bueno darle un propósito más específico a la función, de acuerdo a la descripción faltante de la actividad."
+        "feedback": "El código contiene errores de compilación debido a la doble declaración de paquetes y la función 'ejercicio3' no tiene un propósito claro.  Necesitas corregir la estructura del código y definir claramente la funcionalidad del Ejercicio 3."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio4.java",
-        "score": 2,
+        "score": 3,
         "fileFound": true,
-        "feedback": "El código presenta un error de sintaxis al tener una doble definición de la clase y el método ejercicio4. Elimina la duplicación y asegúrate de que la clase esté correctamente definida. El uso de constantes (final) es correcto, pero el código debe compilar y ejecutarse sin errores."
+        "feedback": "El código funciona y muestra los resultados esperados. Sin embargo, la descripción de la actividad es 'undefined', lo que dificulta la evaluación completa. Considera seguir las convenciones de nombres para las constantes (mayúsculas y separadas por guiones bajos) y la variable NOMBRE_UNIVERSIDAD."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio5.java",
-        "score": 2,
+        "score": 1,
         "fileFound": true,
-        "feedback": "El código imprime algunos mensajes, pero no hay una descripción clara de la actividad, por lo que es difícil evaluar la corrección. Falta completar la lógica requerida y seguir buenas prácticas de indentación."
+        "feedback": "El código presenta errores de compilación debido a la definición duplicada de paquetes y clases. Además, la lógica del 'Ejercicio5' parece incompleta y no se alinea con una descripción clara de la actividad."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio6.java",
-        "score": 3,
+        "score": 2,
         "fileFound": true,
-        "feedback": "El código funciona según la descripción, pero falta el manejo de excepciones si la entrada del usuario no es correcta. Además, la clase `Ejercicio6` debería tener un constructor privado si solo contiene un método estático utilitario para evitar la instanciación."
+        "feedback": "El código contiene errores de compilación debido a un `package` duplicado y estructura incorrecta. El ejercicio parece intentar capturar datos del usuario, pero la implementación es deficiente y mezcla conceptos incorrectamente."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio7.java",
-        "score": 4,
+        "score": 1,
         "fileFound": true,
-        "feedback": "El código funciona correctamente y cumple con el objetivo. Podría mejorarse la legibilidad separando la concatenación en varias líneas para facilitar el mantenimiento. Considera usar `String.format` para construir el mensaje final."
+        "feedback": "El código presenta errores de compilación (package duplicado). La lógica del `Ejercicio7` es inexistente y el código relacionado con la captura de datos parece incompleto y mal ubicado. Requiere una revisión completa y reestructuración."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio8.java",
-        "score": 4,
+        "score": 2,
         "fileFound": true,
-        "feedback": "El código demuestra understanding de las reglas para nombres de variables válidos e inválidos en Java. Podría mejorar definiendo la actividad que se está resolviendo en el código (comentarios)."
+        "feedback": "El código parece ser una mezcla de dos ejercicios diferentes (Ejercicio8 y EjemploVariables), y contiene errores de compilación debido a la declaración duplicada del paquete.  Deberías separar los ejercicios y corregir los errores de sintaxis."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio9.java",
         "score": 2,
         "fileFound": true,
-        "feedback": "La actividad muestra la definición de variables y su impresión, pero falta una descripción clara del problema a resolver. La función 'ejercicio9' no es llamada desde ningún lado, por lo que el código no se ejecuta."
+        "feedback": "El código presenta errores de sintaxis (import dentro de un método) e inconsistencias. Mezcla la impresión de 'Ejercicio 9' con un ejercicio que parece intentar usar lowerCamelCase, pero lo hace de forma incorrecta."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio10.java",
-        "score": 4,
+        "score": 2,
         "fileFound": true,
-        "feedback": "El código funciona correctamente y calcula la factura, pero falta importar la clase `Scanner`. Además, sería bueno validar la entrada del usuario para evitar errores."
+        "feedback": "El código presenta problemas de compilación y estructura. El código de facturación está dentro de un método `ejercicio10` sin definir correctamente y con una importación dentro. Además, falta la descripción de la actividad para saber si cumple con lo solicitado."
       }
     ],
-    "overallScore": 3.1,
+    "overallScore": 2.2,
     "totalActivities": 10,
     "completedActivities": 10,
-    "summary": "Buen trabajo general. Completó 10/10 actividades (100%) con una calificación promedio de 3.1/5. Hay oportunidades de mejora en algunos aspectos.",
+    "summary": "Necesita mejorar. Completó 10/10 actividades (100%) con una calificación promedio de 2.2/5. Se recomienda revisar los conceptos fundamentales.",
     "recommendations": [
-      "Revisar y mejorar las actividades con calificación baja"
+      "Revisar y mejorar las actividades con calificación baja",
+      "Enfocarse en mejorar la documentación y comentarios del código",
+      "Aplicar mejores prácticas de programación"
     ],
-    "evaluatedAt": "2025-10-04T03:44:59.697Z",
+    "evaluatedAt": "2025-10-04T03:46:01.010Z",
     "evaluatedBy": "Sistema de Evaluación Masiva"
   }
 }
