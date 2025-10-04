@@ -838,79 +838,79 @@
     "evaluatedAt": "2025-10-04T03:56:08.322Z",
     "evaluatedBy": "Sistema de Evaluación Masiva"
   },
-  "gomezmadrid118-sketch/act_lp_s2": {
-    "repositoryUrl": "gomezmadrid118-sketch/act_lp_s2",
-    "studentName": "Emmanuel Gómez Madrid",
+  "dvalenciabetancur-glitch/act_lp_s2": {
+    "repositoryUrl": "dvalenciabetancur-glitch/act_lp_s2",
+    "studentName": "David Felipe Valencia Betancur",
     "activities": [
       {
         "solutionFile": "src/main/java/com/example/Ejercicio1.java",
         "score": 3,
         "fileFound": true,
-        "feedback": "El código cumple con la funcionalidad básica de imprimir variables. Falta definir la actividad en la descripción para evaluar la completitud de la solución. Podrías modularizar el código para mejor legibilidad."
+        "feedback": "El código funciona y muestra las variables solicitadas. Sin embargo, falta la descripción de la actividad para evaluar si cumple con los requisitos específicos. Sería mejor si la función recibiera parámetros y retornara un valor."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio2.java",
-        "score": 4,
+        "score": 5,
         "fileFound": true,
-        "feedback": "La actividad se resuelve correctamente, mostrando la declaración e impresión de variables de diferentes tipos. Se podría mejorar agregando comentarios para explicar el propósito del código y utilizando nombres de variables más descriptivos."
+        "feedback": "El código cumple con lo solicitado y presenta una buena estructura. Demuestra la correcta declaración e impresión de los tipos de datos primitivos en Java."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio3.java",
-        "score": 4,
+        "score": 3,
         "fileFound": true,
-        "feedback": "El código funciona correctamente y las variables siguen la convención camelCase. Sin embargo, la descripción de la actividad es 'undefined', por lo que no puedo evaluar si resuelve el problema planteado. Sería bueno agregar una breve descripción de la tarea realizada."
+        "feedback": "El código funciona y declara variables básicas, pero la actividad carece de una descripción clara, lo cual dificulta evaluar la resolución. Se podría mejorar definiendo un propósito más específico para el ejercicio."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio4.java",
-        "score": 4,
+        "score": 3,
         "fileFound": true,
-        "feedback": "El código cumple con el objetivo de la actividad, aunque la descripción era 'undefined'. Se utilizan constantes y se calcula el área de un círculo correctamente. Considera usar `Math.PI` en lugar de `3.14159` para mayor precisión."
+        "feedback": "El código funciona y muestra los valores solicitados. Sin embargo, la función `ejercicio4` debería recibir parámetros si pretende ser más útil, y el cálculo del área del círculo debería estar en una función separada para mejorar la reutilización."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio5.java",
         "score": 2,
         "fileFound": true,
-        "feedback": "El código imprime algunos mensajes, pero no hay una descripción de la actividad para evaluar su corrección. Falta completar la lógica específica requerida por el ejercicio."
+        "feedback": "El código realiza algunas impresiones básicas, pero no hay una descripción clara de la actividad que se está resolviendo. Falta definir el propósito del ejercicio y agregar funcionalidad acorde a ese propósito."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio6.java",
         "score": 4,
         "fileFound": true,
-        "feedback": "La solución cumple con la entrada y salida de datos requeridos. Se recomienda cerrar el scanner dentro de un bloque `finally` para asegurar su cierre incluso si hay excepciones."
+        "feedback": "La solución cumple con lo solicitado. Sería mejor refactorizar el código para tener una clase dedicada a la entrada y salida de datos, y cerrar el Scanner en un bloque `finally` para asegurar que se cierre correctamente. Además, la descripción de la actividad es 'undefined', por lo que no se puede asegurar completamente que cumple con los requisitos."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio7.java",
         "score": 3,
         "fileFound": true,
-        "feedback": "El código realiza lo que se espera, pero falta la descripción del ejercicio para saber si cumple con todos los requerimientos. La función `ejercicio7` debería ser más genérica y no estar hardcodeada con nombres específicos."
+        "feedback": "El código funciona y cumple con lo básico.  Sería mejor si el ejercicio tuviera una descripción clara y se utilizara un método `main` para ejecutarlo directamente, además, considera que este método (ejercicio7) debería retornar el resultado en lugar de imprimirlo directamente."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio8.java",
-        "score": 5,
+        "score": 4,
         "fileFound": true,
-        "feedback": "El código demuestra un buen entendimiento de las convenciones de nomenclatura en Java. La explicación de por qué ciertos nombres son válidos o inválidos es precisa y útil."
+        "feedback": "El código demuestra entendimiento de nombres de variables válidos e inválidos en Java, así como algunos estilos de nomenclatura. Sería mejor si la descripción de la actividad estuviera presente para una evaluación más precisa. Incluye comentarios para explicar el uso de camelCase, snake_case y PascalCase, aunque `kebab-case` no es correcto en Java. La ejecución imprime correctamente los valores de las variables."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio9.java",
         "score": 3,
         "fileFound": true,
-        "feedback": "El código declara e imprime variables, pero no hay una descripción de la actividad para saber si esto es correcto. Falta documentación sobre el propósito del código."
+        "feedback": "El código se ejecuta correctamente y muestra los valores solicitados. Sin embargo, falta una descripción clara de la actividad, por lo que es difícil determinar si la solución es completa o correcta.  Podrías mejorar nombrando las variables de forma más descriptiva y considerando el contexto del ejercicio (que no se proporciona)."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio10.java",
         "score": 3,
         "fileFound": true,
-        "feedback": "La lógica del cálculo es correcta, pero hay pérdida de precisión al convertir `PRECIO_PRODUCTO` a `int`. Considera usar `double` para `subTotal`, `iva` y `total` para una mayor exactitud."
+        "feedback": "El código funciona, pero hay duplicación de Scanner y salidas redundantes. Cierra solo el Scanner utilizado y elimina la duplicación de la impresión \"Ejercicio 10\"."
       }
     ],
-    "overallScore": 3.5,
+    "overallScore": 3.3,
     "totalActivities": 10,
     "completedActivities": 10,
-    "summary": "Buen trabajo general. Completó 10/10 actividades (100%) con una calificación promedio de 3.5/5. Hay oportunidades de mejora en algunos aspectos.",
+    "summary": "Buen trabajo general. Completó 10/10 actividades (100%) con una calificación promedio de 3.3/5. Hay oportunidades de mejora en algunos aspectos.",
     "recommendations": [
       "Revisar y mejorar las actividades con calificación baja"
     ],
-    "evaluatedAt": "2025-10-04T04:00:42.803Z",
+    "evaluatedAt": "2025-10-04T04:01:44.433Z",
     "evaluatedBy": "Sistema de Evaluación de No Calificados"
   }
 }
