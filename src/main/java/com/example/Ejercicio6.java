@@ -5,11 +5,6 @@ public class Ejercicio6 {
         System.out.println("Ejercicio 6");
          package com.example;
 
-import java.util.Scanner;
-
-public class CapturarDatos {
-    public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
 
          System.out.print("Ingrese su nombre: ");
@@ -26,11 +21,6 @@ public class CapturarDatos {
         System.out.println("Edad: " + edad + " años");
         System.out.println("Altura: " + altura + " m");
 
-scanner.close();
-
-
-          }
-}
 
     }
 }
