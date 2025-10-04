@@ -688,79 +688,79 @@
     "evaluatedAt": "2025-10-04T03:46:01.010Z",
     "evaluatedBy": "Sistema de Evaluación Masiva"
   },
-  "Ecatano/act_lp_s2": {
-    "repositoryUrl": "Ecatano/act_lp_s2",
-    "studentName": "Edwin Alexis Cataño Saldarriaga",
+  "01GlennAM/act_lp_s2": {
+    "repositoryUrl": "01GlennAM/act_lp_s2",
+    "studentName": "Glenn Álvarez M",
     "activities": [
       {
         "solutionFile": "src/main/java/com/example/Ejercicio1.java",
         "score": 4,
         "fileFound": true,
-        "feedback": "El código funciona y cumple con el objetivo. Se podría mejorar encapsulando la lógica dentro de una clase y evitando imprimir directamente desde la función principal, separando la lógica de visualización."
+        "feedback": "El código funciona correctamente y muestra las variables solicitadas. Sin embargo, el método `ejercicio1()` podría ser más genérico o recibir parámetros para hacerlo más reutilizable."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio2.java",
-        "score": 3,
+        "score": 5,
         "fileFound": true,
-        "feedback": "El código funciona y declara las variables correctamente, pero los tipos de datos en los `println` son incorrectos (edad es int, no byte). Considera usar nombres de variables más descriptivos y consistentes."
+        "feedback": "El código es correcto y funcional. Demuestra entendimiento de los tipos de datos primitivos en Java y su declaración correcta."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio3.java",
-        "score": 3,
+        "score": 4,
         "fileFound": true,
-        "feedback": "El código funciona y muestra las variables, pero falta la descripción de la actividad para saber si cumple con lo solicitado. La función `ejercicio3` debería ser más genérica, recibiendo parámetros en lugar de tener los valores hardcodeados."
+        "feedback": "El código cumple con mostrar variables de diferentes tipos, aunque la descripción de la actividad es indefinida. Considera agregar un método main para que el código sea ejecutable directamente y mejorar la indentación."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio4.java",
         "score": 4,
         "fileFound": true,
-        "feedback": "El código cumple con la tarea básica y utiliza constantes. Se podría mejorar la estructura separando la lógica del cálculo del área en una función aparte para mayor modularidad y legibilidad."
+        "feedback": "El código funciona y demuestra el uso de constantes. Podría mejorarse el nombre de la constante NOMBRE_NOMBRE_UNIVERSIDAD y evitar la repetición. Además, la actividad carece de una descripción clara de lo que se espera del estudiante."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio5.java",
-        "score": 3,
+        "score": 2,
         "fileFound": true,
-        "feedback": "El código funciona y cumple con imprimir los mensajes solicitados. Sin embargo, falta contexto sobre el objetivo específico del ejercicio para evaluar su completitud.  Considera añadir comentarios explicando el propósito del código."
+        "feedback": "El código compila y se ejecuta, pero no se especifica qué debía hacer el programa, por lo que la funcionalidad es indeterminada. Falta definición del problema a resolver para poder evaluarlo adecuadamente."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio6.java",
         "score": 4,
         "fileFound": true,
-        "feedback": "El código funciona correctamente y cumple con la solicitud de capturar y mostrar nombre, edad y altura. Considera agregar validación de entrada para evitar errores si el usuario ingresa datos incorrectos y cierra el Scanner al finalizar el método."
+        "feedback": "El código funciona correctamente y cumple con la descripción. Se recomienda usar `try-with-resources` para el Scanner para asegurar que se cierre correctamente sin afectar otros ejercicios. Además, considera validar las entradas del usuario (edad y altura) para evitar errores."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio7.java",
-        "score": 4,
+        "score": 3,
         "fileFound": true,
-        "feedback": "El código funciona y es legible. Podrías considerar la posibilidad de usar `String.format` para una mejor legibilidad en la concatenación de cadenas, especialmente cuando hay múltiples variables involucradas. Además, la descripción de la actividad está indefinida, así que asumo que el objetivo era simplemente demostrar la manipulación de cadenas."
+        "feedback": "El código funciona y realiza operaciones básicas con Strings. Sin embargo, falta una descripción clara de la actividad para evaluar si la solución es completa y correcta. Se podría mejorar la estructura y claridad del código, aunque funciona."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio8.java",
-        "score": 3,
+        "score": 4,
         "fileFound": true,
-        "feedback": "El código funciona y demuestra la declaración de variables, pero falta una descripción clara del problema resuelto. Podría incluir una breve explicación de lo que hace el programa y usar nombres de variables más descriptivos."
+        "feedback": "El código demuestra comprensión de las reglas para nombrar variables en Java, con comentarios útiles. Podría mejorar nombrando la clase de manera más descriptiva y separando la lógica de la impresión en métodos distintos."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio9.java",
         "score": 3,
         "fileFound": true,
-        "feedback": "El código funciona y muestra las variables, pero la actividad no describe qué se debe hacer. Falta la lógica o procesamiento de datos esperado en un ejercicio de programación. Deberías revisar la descripción del ejercicio."
+        "feedback": "El código cumple con la funcionalidad básica de imprimir las variables. Sin embargo, la actividad no describe qué se debe hacer, lo que impide una evaluación completa. Se podría mejorar la estructura separando la lógica de impresión en una función aparte."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio10.java",
-        "score": 4,
+        "score": 3,
         "fileFound": true,
-        "feedback": "La solución resuelve el problema correctamente y el código es legible. Se podría mejorar la gestión de recursos (scanner) utilizando un bloque try-with-resources para asegurar que se cierra correctamente."
+        "feedback": "El código funciona, pero se pueden mejorar las prácticas. No es necesario crear dos objetos Scanner, el segundo puede ser redundante. Además, la salida podría formatearse mejor para la presentación de la factura."
       }
     ],
-    "overallScore": 3.5,
+    "overallScore": 3.6,
     "totalActivities": 10,
     "completedActivities": 10,
-    "summary": "Buen trabajo general. Completó 10/10 actividades (100%) con una calificación promedio de 3.5/5. Hay oportunidades de mejora en algunos aspectos.",
+    "summary": "Buen trabajo general. Completó 10/10 actividades (100%) con una calificación promedio de 3.6/5. Hay oportunidades de mejora en algunos aspectos.",
     "recommendations": [
-      "Continuar con el excelente trabajo y mantener la calidad del código"
+      "Revisar y mejorar las actividades con calificación baja"
     ],
-    "evaluatedAt": "2025-10-04T03:47:01.841Z",
+    "evaluatedAt": "2025-10-04T03:48:02.631Z",
     "evaluatedBy": "Sistema de Evaluación Masiva"
   }
 }
