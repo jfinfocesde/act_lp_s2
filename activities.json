@@ -3,47 +3,207 @@
         "id": 1,
         "description": "Declara variables de diferentes tipos y asigna valores. Declara una variable int llamada edad y asígnale el valor 25. Declara una variable double llamada altura y asígnale el valor 1.75. Declara una variable String llamada nombre y asígnale tu nombre. Declara una variable boolean llamada esEstudiante y asígnale true. Imprime todas las variables por consola.",
         "solution": "src/main/java/com/example/Ejercicio1.java"
-    },
+    },    
+        int edad = 25;
+        double altura = 1.75;
+        String nombre = "jose leonardo saez";
+        boolean esEstudiante = true;
+
+    System.out.println(edad);
+    System.out.println(altura);
+    System.out.println(esEstudiante);
+    System.out.println(nombre);
+
+    
+    
     {
         "id": 2,
         "description": "Trabaja con todos los tipos de datos primitivos de Java. Declara una variable byte con valor 100. Declara una variable short con valor 1000. Declara una variable int con valor 50000. Declara una variable long con valor 1000000L. Declara una variable float con valor 3.14f. Declara una variable double con valor 2.71828. Declara una variable char con valor 'A'. Declara una variable boolean con valor false. Imprime cada variable mostrando su tipo y valor.",
         "solution": "src/main/java/com/example/Ejercicio2.java"
-    },
-    {
+    },  
+    public class App {
+public static void main(String[] args) throws Exception {
+byte b = 100;
+short s = 1000;
+int i = 5000;
+long l  = 1000000L;
+float f = 10.14f;
+double d = 2.71828;
+char c  = 'A';
+boolean bo = true;
+
+System.out.println("int: i" + i) ;
+System.out.println("Float: " + f) ;
+System.out.println("Double: " + d) ;
+System.out.println("Char: " + c) ;
+System.out.println("Boolean: " + bo) ;
+System.out.println("Byte: " + b) ;
+System.out.println("Short: " + s) ;
+System.out.println("Long: " + l) ;
+
+    }
+}
+
+
+    
         "id": 3,
         "description": "Practica el uso correcto de identificadores siguiendo lowerCamelCase. Declara una variable llamada numeroDeEstudiantes con valor 30. Declara una variable llamada promedioCalificaciones con valor 8.5. Declara una variable llamada nombreCompleto con tu nombre completo. Declara una variable llamada esMayorDeEdad con valor true. Agrega comentarios explicando por qué estos nombres son válidos. Imprime todas las variables.",
         "solution": "src/main/java/com/example/Ejercicio3.java"
-    },
+    },     
+        int numeroDeEstudiantes = 30;
+        double promedioCalificaciones = 8.5;
+        String nombreCompleto = "Jose Saez";
+        boolean esMayorDeEdad = true;
+
+    System.out.println(numeroDeEstudiantes);
+    System.out.println(promedioCalificaciones);
+    System.out.println(nombreCompleto);
+    System.out.println(esMayorDeEdad);
+
+
     {
         "id": 4,
         "description": "Declara y utiliza constantes con la palabra clave final. Declara una constante final double PI con valor 3.14159. Declara una constante final int DIAS_SEMANA con valor 7. Declara una constante final String NOMBRE_UNIVERSIDAD con el nombre de tu universidad. Calcula el área de un círculo usando PI y radio 5. Imprime las constantes y el resultado del cálculo.",
         "solution": "src/main/java/com/example/Ejercicio4.java"
     },
+        final double PI = 3.14159;
+        final int DIA_SEMANA = 7;
+        String NOMBRE_UNIVERSIDAD ="CESDE";
+
+        int radio = 5;
+        double area = PI * radio * radio;
+
+        System.out.println("El área del círculo es: " + area);
+        System.out.println("El valor de PI es: " + PI);
+        System.out.println("El día de la semana es: " + DIA_SEMANA);
+        System.out.println("El nombre de la universidad es: " + NOMBRE_UNIVERSIDAD);
+
     {
         "id": 5,
-        "description": "Utiliza diferentes métodos para mostrar información en consola. Usa System.out.print() para imprimir \"Hola\" sin salto de línea. Usa System.out.println() para imprimir \" Mundo\" con salto de línea. Usa System.out.printf() para imprimir \"Mi edad es %d años\", usando una variable edad. Imprime una línea separadora usando println().",
+        "description": "Utiliza diferentes métodos para mostrar información en consola. Usa System.out.print() para imprimir \"Hola\" sin salto de línea. Usa System.out.println() para imprimir0 \" Mundo\" con salto de línea. Usa System.out.printf() para imprimir \"Mi edad es %d años\", usando una variable edad. Imprime una línea separadora usando println().",
         "solution": "src/main/java/com/example/Ejercicio5.java"
     },
+        int edad = 28;
+     
+        System.out.print("Hola" );
+       System.out.println("\nMundo");
+       System.out.printf("Mi edad es %d años", edad);
+       System.out.println("-----------------------");
+
     {
         "id": 6,
         "description": "Captura información del usuario usando Scanner. Importa la clase Scanner (import java.util.Scanner;). Crea un objeto Scanner: Scanner scanner = new Scanner(System.in);. Solicita al usuario su nombre y guárdalo en una variable String. Solicita al usuario su edad y guárdala en una variable int. Solicita al usuario su altura y guárdala en una variable double. Imprime todos los datos capturados. Cierra el Scanner con scanner.close().",
         "solution": "src/main/java/com/example/Ejercicio6.java"
-    },
+    },    import java.util.Scanner;
+
+import java.util.Scanner;
+
+public class CapturarDatos {
+  public static void main(String[] args) {
+
+    Scanner scanner = new Scanner(System.in);
+ 
+         System.out.print("Ingrese su nombre: ");
+        String nombre = scanner.nextLine();
+ 
+         System.out.print("Ingrese su edad: ");
+        int edad = scanner.nextInt();
+ 
+         System.out.print("Ingrese su altura:");
+        double altura = scanner.nextDouble();
+ 
+ System.out.println("\n--- Datos Capturados ---");
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Edad: " + edad + " años");
+        System.out.println("Altura: " + altura + " m");
+ 
+scanner.close(); 
+
+  }
+
+}
+
     {
         "id": 7,
         "description": "Practica diferentes formas de unir cadenas de texto. Declara String nombre = \"Juan\" y String apellido = \"Pérez\". Concatena usando el operador +: String nombreCompleto = nombre + \" \" + apellido. Concatena usando concat(): String saludo = \"Hola \".concat(nombreCompleto). Declara int edad = 20 y concatena: \"Tengo \" + edad + \" años\". Imprime todos los resultados mostrando las diferentes técnicas de concatenación.",
         "solution": "src/main/java/com/example/Ejercicio7.java"
     },
+public class CapturarDatos {
+    public static void main(String[] args) {
+String nombre = "Juan";
+    String apellido = "Perez";
+
+    String NombreCompleto = nombre + " " + apellido; 
+    System.out.println("Nombre completo: " + NombreCompleto);
+
+    int edad = 20;
+    String saludo = "Hola ".concat(NombreCompleto);
+    System.out.println( " tengo " + edad + " años");
+
+    
+
+    }
+}  
+
     {
         "id": 8,
         "description": "Demuestra el uso correcto de identificadores en Java. Declara variables con nombres válidos: miVariable, _contador, $precio, variable123. En comentarios, explica por qué son válidos (empiezan con letra, guión bajo o $, pueden contener números). En comentarios, lista nombres inválidos: 123variable, mi-variable, class, public. En comentarios, explica por qué son inválidos (empiezan con número, contienen guión, son palabras reservadas). Imprime las variables válidas.",
         "solution": "src/main/java/com/example/Ejercicio8.java"
     },
+public class EjemploVariables {
+    public static void main(String[] args) {
+
+      String miVariable = "Texto "; /*Los nombres de variables deben comenzar con una letra minúscula y separa con mayuscula (camellcay). */    
+        System.out.println(miVariable );
+      
+        int _contador = 0; /* es una variable de tipo entera permite comenzar con guion bajo */
+      System.out.println(_contador);
+
+      double $precio = 19.99;/*  se unsa para  codigo generado automaticamente*/
+      System.out.println($precio);  
+
+     
+      int variable123 = 10; /*se permite usar numeros pero no al inicio */
+      System.out.println(variable123);
+    
+      /*123variables = 5;/*no puede empezar con numeros*/
+
+     /*mi_variable */ /*no se permiten espacios */
+
+    /*class /*palabra clave para declarar clases*/
+
+    /*public *//*palabra clave para declarar metodos*/
+
+
+
+
+    }
+}  
+
+
+
     {
         "id": 9,
         "description": "Aplica lowerCamelCase en nombres descriptivos y largos. Declara: int numeroDeEstudiantesEnLaClase = 25. Declara: double promedioDeCalificacionesDelSemestre = 8.7. Declara: String nombreCompletoDelProfesor = \"Dr. García\". Declara: boolean estudianteEstaAprobado = true. Imprime todas las variables con mensajes descriptivos que expliquen el uso de lowerCamelCase.",
         "solution": "src/main/java/com/example/Ejercicio9.java"
-    },
+    },import java.util.Scanner;
+
+public class lowerCamelCase {
+
+  public static void main(String[] args) {
+   
+    int numeroDeEstudianteDeLaClase = 25;
+    double promedioDeCalifiacionesDelSemestre = 8.7;
+    String nombreCompletoDelProfesor = "Dr García";
+    boolean estudianteAprobado = true;
+  
+    System.out.println("El numero de estudiantes en la clase es:" + numeroDeEstudianteDeLaClase);
+    System.out.println("El promedio de calificaciones del semestre es:" + promedioDeCalifiacionesDelSemestre);
+    System.out.println("El nombre completo del profesor es:" + nombreCompletoDelProfesor);
+    System.out.println("¿Los estudiantes están aprobado?:" + estudianteAprobado);
+  }
+}
+
     {
         "id": 10,
         "description": "Combina todos los temas en un programa completo de facturación. Declara constantes: final double PRECIO_PRODUCTO = 15.99, final int IVA_PORCENTAJE = 16. Captura del usuario usando Scanner: cantidad de productos (int) y nombre del cliente (String). Calcula: subtotal = PRECIO_PRODUCTO * cantidad. Calcula: iva = subtotal * IVA_PORCENTAJE / 100. Calcula: total = subtotal + iva. Imprime factura completa usando concatenación de cadenas. Usa lowerCamelCase en todas las variables. Cierra el Scanner.",
