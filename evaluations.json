@@ -611,81 +611,79 @@
     "evaluatedAt": "2025-10-04T03:40:52.978Z",
     "evaluatedBy": "Sistema de Evaluación Masiva"
   },
-  "joseleonardosg19-ship-it/act_lp_s2": {
-    "repositoryUrl": "joseleonardosg19-ship-it/act_lp_s2",
-    "studentName": "jose leonardo saez garcia",
+  "Juan04786/act_lp_s2": {
+    "repositoryUrl": "Juan04786/act_lp_s2",
+    "studentName": "Juan Carlos Osorio",
     "activities": [
       {
         "solutionFile": "src/main/java/com/example/Ejercicio1.java",
-        "score": 5,
+        "score": 3,
         "fileFound": true,
-        "feedback": "El código cumple con lo esperado, declarando e imprimiendo variables de diferentes tipos correctamente. Se podría mejorar el nombre de la clase a `VariablesEjemplo` para mayor claridad."
+        "feedback": "El código parece funcionar, pero tiene un `package com.example;` duplicado y la primera función `ejercicio1` solo contiene un `System.out.println` innecesario. Elimina la redundancia y usa buenas prácticas nombrando los metodos en ingles (ej: `exercise1`)."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio2.java",
-        "score": 3,
+        "score": 4,
         "fileFound": true,
-        "feedback": "El código imprime las variables correctamente, pero le falta la explicación de la actividad, parece incompleto. Falta encapsulación y claridad en el propósito de la clase 'Ejercicio2'."
+        "feedback": "El código resuelve la actividad mostrando los diferentes tipos de datos primitivos. Sin embargo, la función `ejercicio2` no es llamada desde ningún otro punto del código, lo que limita su funcionalidad real. Se recomienda crear un método main que haga uso de la función creada."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio3.java",
-        "score": 2,
+        "score": 3,
         "fileFound": true,
-        "feedback": "El código declara e imprime variables, pero no hay una descripción de la actividad para saber si cumple con el objetivo. Falta lógica para completar la tarea asignada."
+        "feedback": "El código muestra el uso de variables con tipos de datos básicos, pero no se describe el problema a resolver.  Sería bueno darle un propósito más específico a la función, de acuerdo a la descripción faltante de la actividad."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio4.java",
-        "score": 3,
+        "score": 2,
         "fileFound": true,
-        "feedback": "El código presenta errores de compilación debido a la declaración duplicada de PI (primero como variable local dentro del método y luego sin inicializar como miembro de la clase implícitamente), además de no estar declarado como miembro de la clase. Corrige la declaración y el uso de PI y considera mover las constantes a la clase."
+        "feedback": "El código presenta un error de sintaxis al tener una doble definición de la clase y el método ejercicio4. Elimina la duplicación y asegúrate de que la clase esté correctamente definida. El uso de constantes (final) es correcto, pero el código debe compilar y ejecutarse sin errores."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio5.java",
         "score": 2,
         "fileFound": true,
-        "feedback": "El código imprime algunos mensajes, pero no hay una descripción clara de la actividad. Falta funcionalidad y la estructura es básica. Se sugiere definir la actividad y completar la lógica correspondiente."
+        "feedback": "El código imprime algunos mensajes, pero no hay una descripción clara de la actividad, por lo que es difícil evaluar la corrección. Falta completar la lógica requerida y seguir buenas prácticas de indentación."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio6.java",
-        "score": 2,
+        "score": 3,
         "fileFound": true,
-        "feedback": "El código define dos clases, `Ejercicio6` y `CapturarDatos`, pero no hay una conexión clara entre ellas ni con el enunciado (inexistente). El programa de captura de datos funciona, pero está dentro de un `main` y no es reutilizable dentro de la clase `Ejercicio6` como se esperaría de un ejercicio modular."
+        "feedback": "El código funciona según la descripción, pero falta el manejo de excepciones si la entrada del usuario no es correcta. Además, la clase `Ejercicio6` debería tener un constructor privado si solo contiene un método estático utilitario para evitar la instanciación."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio7.java",
-        "score": 2,
+        "score": 4,
         "fileFound": true,
-        "feedback": "El código presenta errores de compilación debido a la estructura de clases anidadas y falta de un método main adecuado en la clase principal. La funcionalidad está incompleta y no resuelve un problema específico más allá de la concatenación de cadenas y la impresión de datos. Se debe corregir la estructura y definir un propósito claro para el ejercicio 7."
+        "feedback": "El código funciona correctamente y cumple con el objetivo. Podría mejorarse la legibilidad separando la concatenación en varias líneas para facilitar el mantenimiento. Considera usar `String.format` para construir el mensaje final."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio8.java",
-        "score": 2,
+        "score": 4,
         "fileFound": true,
-        "feedback": "El código contiene un `main` dentro de un método llamado `ejercicio8` lo cual es confuso y no sigue una estructura clara. La actividad parece ser sobre nombres de variables, pero la solución no es clara ni completa, mezclando conceptos y comentarios en lugar de demostrar la comprensión correcta."
+        "feedback": "El código demuestra understanding de las reglas para nombres de variables válidos e inválidos en Java. Podría mejorar definiendo la actividad que se está resolviendo en el código (comentarios)."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio9.java",
-        "score": 1,
+        "score": 2,
         "fileFound": true,
-        "feedback": "El código parece ser de otro ejercicio, no se relaciona con la declaración de la clase `Ejercicio9`. Además, hay un error de importación dentro de la clase. La estructura general es confusa."
+        "feedback": "La actividad muestra la definición de variables y su impresión, pero falta una descripción clara del problema a resolver. La función 'ejercicio9' no es llamada desde ningún lado, por lo que el código no se ejecuta."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio10.java",
-        "score": 3,
+        "score": 4,
         "fileFound": true,
-        "feedback": "El código intenta resolver el problema, pero contiene errores de sintaxis (Synstem.out.printl en lugar de System.out.println y falta de paquete correcto). La lógica de cálculo es correcta y el formato de salida es adecuado, pero los errores impiden la correcta ejecución. Recuerda verificar la sintaxis y el nombre del paquete."
+        "feedback": "El código funciona correctamente y calcula la factura, pero falta importar la clase `Scanner`. Además, sería bueno validar la entrada del usuario para evitar errores."
       }
     ],
-    "overallScore": 2.5,
+    "overallScore": 3.1,
     "totalActivities": 10,
     "completedActivities": 10,
-    "summary": "Necesita mejorar. Completó 10/10 actividades (100%) con una calificación promedio de 2.5/5. Se recomienda revisar los conceptos fundamentales.",
+    "summary": "Buen trabajo general. Completó 10/10 actividades (100%) con una calificación promedio de 3.1/5. Hay oportunidades de mejora en algunos aspectos.",
     "recommendations": [
-      "Revisar y mejorar las actividades con calificación baja",
-      "Enfocarse en mejorar la documentación y comentarios del código",
-      "Aplicar mejores prácticas de programación"
+      "Revisar y mejorar las actividades con calificación baja"
     ],
-    "evaluatedAt": "2025-10-04T03:43:58.820Z",
+    "evaluatedAt": "2025-10-04T03:44:59.697Z",
     "evaluatedBy": "Sistema de Evaluación Masiva"
   }
 }
