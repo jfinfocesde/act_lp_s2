@@ -12,5 +12,6 @@ public class Ejercicio5 {
        System.out.printf("Mi edad es %d años", edad);
        System.out.println("-----------------------");
 
-    {
+    }
+}
 
