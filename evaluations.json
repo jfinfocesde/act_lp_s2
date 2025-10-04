@@ -392,61 +392,61 @@
         "solutionFile": "src/main/java/com/example/Ejercicio1.java",
         "score": 1,
         "fileFound": true,
-        "feedback": "La solución presenta la estructura inicial, pero no implementa la lógica requerida para resolver el problema.  Se debe completar la función `ejercicio1()` con la funcionalidad solicitada."
+        "feedback": "La actividad no resuelve ningún problema específico. Solo imprime \"Ejercicio 1\" pero no contiene la lógica requerida para cumplir con el objetivo, que está indefinido."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio2.java",
         "score": 1,
         "fileFound": true,
-        "feedback": "La función `ejercicio2` solo imprime \"Ejercicio 2\" y no contiene ninguna lógica adicional para resolver el problema planteado en la descripción de la actividad (que es indefinida). Falta implementar la funcionalidad principal del ejercicio."
+        "feedback": "El código solo contiene la estructura básica de la función, pero no implementa la lógica requerida por la actividad.  Es necesario agregar la funcionalidad principal solicitada."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio3.java",
         "score": 1,
         "fileFound": true,
-        "feedback": "La actividad no presenta ninguna solución al problema planteado. Se requiere implementar la lógica solicitada dentro de la función `ejercicio3()`."
+        "feedback": "La estructura básica está bien, pero el ejercicio no está resuelto. Falta implementar la lógica requerida en el cuerpo del método `ejercicio3()`."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio4.java",
         "score": 1,
         "fileFound": true,
-        "feedback": "El código proporciona una estructura básica, pero no implementa ninguna lógica funcional para resolver la actividad.  Es necesario completar la implementación dentro del método `ejercicio4()`."
+        "feedback": "El archivo solo contiene un esqueleto básico. Falta la implementación del ejercicio descrito en la actividad."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio5.java",
         "score": 1,
         "fileFound": true,
-        "feedback": "El archivo solo contiene la estructura básica con un 'System.out.println'. Falta la implementación del ejercicio propuesto. Recuerda completar la lógica solicitada en la descripción."
+        "feedback": "El archivo solo contiene la estructura base de la clase y un comentario 'tu código aquí', sin ninguna implementación funcional para el ejercicio 5. Falta la lógica principal del programa."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio6.java",
         "score": 1,
         "fileFound": true,
-        "feedback": "El código proporciona una estructura básica, pero no implementa la lógica requerida para resolver la actividad.  Es necesario agregar la funcionalidad descrita en la descripción de la actividad."
+        "feedback": "El archivo contiene la estructura básica pero no implementa la lógica requerida para resolver el ejercicio. Falta el código dentro del método `ejercicio6()`."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio7.java",
         "score": 1,
         "fileFound": true,
-        "feedback": "La actividad no está resuelta. Solo se imprime 'Ejercicio 7' y falta la implementación real de la lógica requerida. Se debe completar la funcionalidad dentro del método `ejercicio7()`."
+        "feedback": "El código presenta la estructura básica pero no implementa ninguna funcionalidad específica requerida por la descripción de la actividad (que no se proporciona). Falta el desarrollo del ejercicio."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio8.java",
         "score": 1,
         "fileFound": true,
-        "feedback": "La actividad no resuelve ningún problema específico. Falta implementar la lógica solicitada dentro del método `ejercicio8()`."
+        "feedback": "El código proporciona la estructura inicial pero no implementa la lógica requerida para el ejercicio. Falta la implementación funcional dentro del método `ejercicio8()`."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio9.java",
         "score": 1,
         "fileFound": true,
-        "feedback": "El código proporcionado solo contiene la estructura básica y un mensaje. Falta la implementación real del ejercicio propuesto. Se necesita agregar la lógica funcional requerida."
+        "feedback": "El código presenta la estructura básica pero no implementa la lógica para resolver la actividad descrita (que es indefinida, lo cual dificulta la evaluación). Se debe implementar la funcionalidad solicitada dentro del método `ejercicio9()`."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio10.java",
         "score": 1,
         "fileFound": true,
-        "feedback": "La actividad no implementa ninguna funcionalidad más allá de imprimir \"Ejercicio 10\". Falta la lógica para resolver el problema planteado en la descripción (que es undefined, lo cual es un problema). Considera implementar la lógica necesaria y mejorar la estructura del código."
+        "feedback": "La actividad no presenta una solución al problema planteado. Solo imprime 'Ejercicio 10' y contiene un comentario indicando la falta de implementación. Necesita implementar la lógica requerida para resolver el ejercicio."
       }
     ],
     "overallScore": 1,
@@ -458,7 +458,7 @@
       "Enfocarse en mejorar la documentación y comentarios del código",
       "Aplicar mejores prácticas de programación"
     ],
-    "evaluatedAt": "2025-10-04T03:58:18.109Z",
+    "evaluatedAt": "2025-09-20T04:04:47.952Z",
     "evaluatedBy": "Sistema de Evaluación Masiva"
   },
   "Marchbolda/act_lp_s2": {
@@ -837,5 +837,80 @@
     ],
     "evaluatedAt": "2025-10-04T03:56:08.322Z",
     "evaluatedBy": "Sistema de Evaluación Masiva"
+  },
+  "gomezmadrid118-sketch/act_lp_s2": {
+    "repositoryUrl": "gomezmadrid118-sketch/act_lp_s2",
+    "studentName": "Emmanuel Gómez Madrid",
+    "activities": [
+      {
+        "solutionFile": "src/main/java/com/example/Ejercicio1.java",
+        "score": 3,
+        "fileFound": true,
+        "feedback": "El código cumple con la funcionalidad básica de imprimir variables. Falta definir la actividad en la descripción para evaluar la completitud de la solución. Podrías modularizar el código para mejor legibilidad."
+      },
+      {
+        "solutionFile": "src/main/java/com/example/Ejercicio2.java",
+        "score": 4,
+        "fileFound": true,
+        "feedback": "La actividad se resuelve correctamente, mostrando la declaración e impresión de variables de diferentes tipos. Se podría mejorar agregando comentarios para explicar el propósito del código y utilizando nombres de variables más descriptivos."
+      },
+      {
+        "solutionFile": "src/main/java/com/example/Ejercicio3.java",
+        "score": 4,
+        "fileFound": true,
+        "feedback": "El código funciona correctamente y las variables siguen la convención camelCase. Sin embargo, la descripción de la actividad es 'undefined', por lo que no puedo evaluar si resuelve el problema planteado. Sería bueno agregar una breve descripción de la tarea realizada."
+      },
+      {
+        "solutionFile": "src/main/java/com/example/Ejercicio4.java",
+        "score": 4,
+        "fileFound": true,
+        "feedback": "El código cumple con el objetivo de la actividad, aunque la descripción era 'undefined'. Se utilizan constantes y se calcula el área de un círculo correctamente. Considera usar `Math.PI` en lugar de `3.14159` para mayor precisión."
+      },
+      {
+        "solutionFile": "src/main/java/com/example/Ejercicio5.java",
+        "score": 2,
+        "fileFound": true,
+        "feedback": "El código imprime algunos mensajes, pero no hay una descripción de la actividad para evaluar su corrección. Falta completar la lógica específica requerida por el ejercicio."
+      },
+      {
+        "solutionFile": "src/main/java/com/example/Ejercicio6.java",
+        "score": 4,
+        "fileFound": true,
+        "feedback": "La solución cumple con la entrada y salida de datos requeridos. Se recomienda cerrar el scanner dentro de un bloque `finally` para asegurar su cierre incluso si hay excepciones."
+      },
+      {
+        "solutionFile": "src/main/java/com/example/Ejercicio7.java",
+        "score": 3,
+        "fileFound": true,
+        "feedback": "El código realiza lo que se espera, pero falta la descripción del ejercicio para saber si cumple con todos los requerimientos. La función `ejercicio7` debería ser más genérica y no estar hardcodeada con nombres específicos."
+      },
+      {
+        "solutionFile": "src/main/java/com/example/Ejercicio8.java",
+        "score": 5,
+        "fileFound": true,
+        "feedback": "El código demuestra un buen entendimiento de las convenciones de nomenclatura en Java. La explicación de por qué ciertos nombres son válidos o inválidos es precisa y útil."
+      },
+      {
+        "solutionFile": "src/main/java/com/example/Ejercicio9.java",
+        "score": 3,
+        "fileFound": true,
+        "feedback": "El código declara e imprime variables, pero no hay una descripción de la actividad para saber si esto es correcto. Falta documentación sobre el propósito del código."
+      },
+      {
+        "solutionFile": "src/main/java/com/example/Ejercicio10.java",
+        "score": 3,
+        "fileFound": true,
+        "feedback": "La lógica del cálculo es correcta, pero hay pérdida de precisión al convertir `PRECIO_PRODUCTO` a `int`. Considera usar `double` para `subTotal`, `iva` y `total` para una mayor exactitud."
+      }
+    ],
+    "overallScore": 3.5,
+    "totalActivities": 10,
+    "completedActivities": 10,
+    "summary": "Buen trabajo general. Completó 10/10 actividades (100%) con una calificación promedio de 3.5/5. Hay oportunidades de mejora en algunos aspectos.",
+    "recommendations": [
+      "Revisar y mejorar las actividades con calificación baja"
+    ],
+    "evaluatedAt": "2025-10-04T04:00:42.803Z",
+    "evaluatedBy": "Sistema de Evaluación de No Calificados"
   }
 }
