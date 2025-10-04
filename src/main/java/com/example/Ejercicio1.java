@@ -14,10 +14,6 @@ public class Ejercicio1 {
         System.out.println("Altura: " + altura);
         System.out.println("Nombre: " + nombre);
         System.out.println("Es estudiante: " + esEstudiante);
-    }
-
-    public static void main(String[] args) {
-        ejercicio1();  // Llamada al método ejercicio1
 
         
     }
