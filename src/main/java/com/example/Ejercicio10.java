@@ -4,12 +4,6 @@ public class Ejercicio10 {
     public static void ejercicio10() {
         System.out.println("Ejercicio 10");
         
-      import java.util.Scanner;
-
-public class Facturacion {
-
-    public static void main(String[] args) {
-        
        
         final double PRECIO_PRODUCTO = 15.99;
         final int IVA_PORCENTAJE = 16;
@@ -38,10 +32,7 @@ public class Facturacion {
         System.out.println("IVA (" + IVA_PORCENTAJE + "%): $" + iva);
         System.out.println("Total a pagar: $" + total);
 
-  
-        scanner.close();
-    }
-}
+   
 
     }
 }
