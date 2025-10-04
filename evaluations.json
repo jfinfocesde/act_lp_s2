@@ -315,73 +315,73 @@
         "solutionFile": "src/main/java/com/example/Ejercicio1.java",
         "score": 3,
         "fileFound": true,
-        "feedback": "El código funciona y declara variables con diferentes tipos de datos. Sin embargo, la descripción de la actividad es ambigua y la función 'ejercicio1' solo imprime valores predefinidos, lo que limita su utilidad y generalidad."
+        "feedback": "El código es funcional y muestra las variables, pero la descripción de la actividad es undefined, lo que dificulta saber si cumple con los requisitos específicos.  Considera agregar una descripción clara del problema a resolver para una mejor evaluación."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio2.java",
         "score": 4,
         "fileFound": true,
-        "feedback": "El código funciona y demuestra el uso de diferentes tipos de datos. Sin embargo, la descripción de la actividad es 'undefined', lo que dificulta evaluar si la solución es completa. Considera agregar una descripción detallada de la actividad para una mejor evaluación."
+        "feedback": "El código funciona y muestra los tipos de datos primitivos en Java. Podrías mejorar la legibilidad separando las declaraciones de variables y las impresiones con espacios en blanco."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio3.java",
         "score": 3,
         "fileFound": true,
-        "feedback": "El código cumple con mostrar la declaración de variables y su impresión, pero la actividad no está definida, dificultando evaluar la resolución. Se recomienda definir claramente la actividad a realizar para obtener una mejor calificación."
+        "feedback": "El código cumple con la funcionalidad básica, pero la falta de una descripción clara de la actividad dificulta la evaluación completa. Se recomienda seguir las convenciones de nombrado de variables (camelCase) y añadir comentarios relevantes."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio4.java",
-        "score": 2,
+        "score": 3,
         "fileFound": true,
-        "feedback": "El código muestra ejemplos de constantes, pero la lógica del cálculo del área es incorrecta (debería ser PI * radio * radio). Además, la función no recibe parámetros ni retorna valores, limitando su utilidad."
+        "feedback": "El código realiza la tarea básica de imprimir algunas constantes.  Sin embargo, la declaración y uso de la variable 'area' es incorrecto, ya que parece querer calcular el área de un círculo, pero lo suma a PI y lo multiplica por el cuadrado de 5, lo cual no tiene sentido. La función `ejercicio4` debería devolver un valor o tener un propósito más definido que solo imprimir constantes."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio5.java",
         "score": 2,
         "fileFound": true,
-        "feedback": "El código compila y ejecuta, pero no hay una descripción de la actividad, por lo tanto, no se puede determinar si la resuelve correctamente. Falta implementar la lógica específica del ejercicio y seguir buenas prácticas de nombrado de variables."
+        "feedback": "El código tiene errores de formato y no realiza ninguna operación significativa. Falta completar la lógica del ejercicio y mejorar el estilo del código."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio6.java",
         "score": 4,
         "fileFound": true,
-        "feedback": "El código funciona y cumple con la descripción (aunque faltante). Es importante cerrar el Scanner en un bloque `finally` o usar un bloque `try-with-resources` para evitar fugas de recursos. Además, la descripción de la actividad es 'undefined', lo cual dificulta la evaluación completa."
+        "feedback": "El código funciona correctamente y cumple con la descripción implícita de recibir y mostrar información del usuario. Sin embargo, cerrar el Scanner después de `nextDouble()` podría causar problemas si se intentan leer más datos. Es recomendable mover el `scanner.close()` fuera de la función si se reutiliza el Scanner."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio7.java",
-        "score": 1,
+        "score": 2,
         "fileFound": true,
-        "feedback": "El código base está presente, pero no se implementa la lógica del ejercicio. Falta el código para resolver el problema planteado en la descripción (que está indefinida, por cierto). Se debe implementar la funcionalidad del ejercicio dentro del método `ejercicio7()`."
+        "feedback": "El código tiene errores de compilación (e.g., variable 'edad' duplicada y concatenación incorrecta). La concatenación de strings podría ser más eficiente usando StringBuilder o String.format en lugar de '+'. "
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio8.java",
         "score": 1,
         "fileFound": true,
-        "feedback": "El código solo contiene la estructura básica y un mensaje de texto. No se ha implementado la solución al ejercicio planteado. Es necesario agregar la lógica requerida."
+        "feedback": "El código presenta errores de sintaxis (falta el tipo de retorno del método, error en la declaración de variables y uso incorrecto de System.out.println). No se puede determinar si resuelve la actividad debido a estos errores. Se recomienda revisar la sintaxis básica de Java."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio9.java",
-        "score": 1,
+        "score": 3,
         "fileFound": true,
-        "feedback": "La solución provee una estructura básica pero no implementa ninguna funcionalidad relacionada con la descripción del problema (que no se proporciona). Es necesario implementar la lógica específica del ejercicio dentro del método `ejercicio9()`."
+        "feedback": "El código funciona y muestra las variables solicitadas. Sin embargo, falta la descripción de la actividad, lo que dificulta determinar si la solución es completa y correcta. Se recomienda añadir una descripción detallada de la tarea a realizar."
       },
       {
         "solutionFile": "src/main/java/com/example/Ejercicio10.java",
-        "score": 1,
+        "score": 3,
         "fileFound": true,
-        "feedback": "La actividad no resuelve el problema planteado. Solo se presenta una estructura básica con un mensaje de placeholder. Se necesita implementar la lógica requerida por la descripción del ejercicio."
+        "feedback": "El código resuelve el problema planteado pero falta cerrar el Scanner dentro de un bloque `finally` para asegurar que siempre se cierre. Además, tiene un error de compilación en la línea de lectura del entero `cantidadProductos` donde falta el punto y coma al final."
       }
     ],
-    "overallScore": 2.2,
+    "overallScore": 2.8,
     "totalActivities": 10,
     "completedActivities": 10,
-    "summary": "Necesita mejorar. Completó 10/10 actividades (100%) con una calificación promedio de 2.2/5. Se recomienda revisar los conceptos fundamentales.",
+    "summary": "Necesita mejorar. Completó 10/10 actividades (100%) con una calificación promedio de 2.8/5. Se recomienda revisar los conceptos fundamentales.",
     "recommendations": [
       "Revisar y mejorar las actividades con calificación baja",
       "Enfocarse en mejorar la documentación y comentarios del código",
       "Aplicar mejores prácticas de programación"
     ],
-    "evaluatedAt": "2025-09-20T03:59:05.362Z",
+    "evaluatedAt": "2025-10-04T03:53:08.467Z",
     "evaluatedBy": "Sistema de Evaluación Masiva"
   },
   "santiagovarela01-cmd/act_lp_s2": {
@@ -761,83 +761,6 @@
       "Revisar y mejorar las actividades con calificación baja"
     ],
     "evaluatedAt": "2025-10-04T03:51:04.740Z",
-    "evaluatedBy": "Sistema de Evaluación Masiva"
-  },
-  "angimnt/act_lp_s2": {
-    "repositoryUrl": "angimnt/act_lp_s2",
-    "studentName": "angi paola montaño lozada",
-    "activities": [
-      {
-        "solutionFile": "src/main/java/com/example/Ejercicio1.java",
-        "score": 1,
-        "fileFound": true,
-        "feedback": "El archivo provee la estructura inicial pero no contiene la lógica solicitada para resolver el problema.  Es necesario implementar el código faltante dentro del método `ejercicio1()`."
-      },
-      {
-        "solutionFile": "src/main/java/com/example/Ejercicio2.java",
-        "score": 1,
-        "fileFound": true,
-        "feedback": "El código provee la estructura inicial para el ejercicio 2, pero no contiene ninguna implementación funcional.  Es necesario implementar la lógica requerida para completar la actividad."
-      },
-      {
-        "solutionFile": "src/main/java/com/example/Ejercicio3.java",
-        "score": 1,
-        "fileFound": true,
-        "feedback": "El código proporciona la estructura básica pero no implementa la lógica requerida para resolver el ejercicio.  Es necesario agregar la funcionalidad específica de la actividad."
-      },
-      {
-        "solutionFile": "src/main/java/com/example/Ejercicio4.java",
-        "score": 1,
-        "fileFound": true,
-        "feedback": "El código provee la estructura básica de la clase y el método, pero no implementa la lógica requerida para resolver el ejercicio. Falta la implementación completa del problema planteado en la descripción (la cual no está definida)."
-      },
-      {
-        "solutionFile": "src/main/java/com/example/Ejercicio5.java",
-        "score": 1,
-        "fileFound": true,
-        "feedback": "El código presenta la estructura básica pero no implementa la funcionalidad requerida para resolver el problema. Falta implementar la lógica específica del ejercicio dentro del método `ejercicio5()`."
-      },
-      {
-        "solutionFile": "src/main/java/com/example/Ejercicio6.java",
-        "score": 1,
-        "fileFound": true,
-        "feedback": "La actividad no resuelve ningún problema específico, solo imprime \"Ejercicio 6\". Falta la implementación de la lógica requerida en la descripción del ejercicio. Se debe agregar la funcionalidad solicitada."
-      },
-      {
-        "solutionFile": "src/main/java/com/example/Ejercicio7.java",
-        "score": 1,
-        "fileFound": true,
-        "feedback": "El código provee la estructura básica, pero no implementa ninguna funcionalidad específica para la actividad descrita. Falta el desarrollo del código requerido para completar el ejercicio."
-      },
-      {
-        "solutionFile": "src/main/java/com/example/Ejercicio8.java",
-        "score": 1,
-        "fileFound": true,
-        "feedback": "La función `ejercicio8` está definida pero no implementa ninguna lógica específica relacionada con la descripción de la actividad.  Se debe agregar la solución correspondiente al problema planteado."
-      },
-      {
-        "solutionFile": "src/main/java/com/example/Ejercicio9.java",
-        "score": 1,
-        "fileFound": true,
-        "feedback": "El archivo contiene la estructura inicial pero falta la implementación del ejercicio. Necesitas agregar la lógica para resolver el problema planteado."
-      },
-      {
-        "solutionFile": "src/main/java/com/example/Ejercicio10.java",
-        "score": 1,
-        "fileFound": true,
-        "feedback": "La actividad no presenta ninguna solución al problema planteado. Solo se incluye la estructura básica de la clase y un mensaje de impresión genérico."
-      }
-    ],
-    "overallScore": 1,
-    "totalActivities": 10,
-    "completedActivities": 10,
-    "summary": "Necesita mejorar. Completó 10/10 actividades (100%) con una calificación promedio de 1.0/5. Se recomienda revisar los conceptos fundamentales.",
-    "recommendations": [
-      "Revisar y mejorar las actividades con calificación baja",
-      "Enfocarse en mejorar la documentación y comentarios del código",
-      "Aplicar mejores prácticas de programación"
-    ],
-    "evaluatedAt": "2025-10-04T03:52:06.987Z",
     "evaluatedBy": "Sistema de Evaluación Masiva"
   }
 }
