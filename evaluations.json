@@ -912,5 +912,80 @@
     ],
     "evaluatedAt": "2025-10-04T04:01:44.433Z",
     "evaluatedBy": "Sistema de Evaluación de No Calificados"
+  },
+  "samuidarraga10/act_lp_s2": {
+    "repositoryUrl": "samuidarraga10/act_lp_s2",
+    "studentName": "samuel idarraga arboleda",
+    "activities": [
+      {
+        "solutionFile": "src/main/java/com/example/Ejercicio1.java",
+        "score": 4,
+        "fileFound": true,
+        "feedback": "El código cumple con el objetivo de declarar e imprimir variables de diferentes tipos. Se podría mejorar la claridad separando la lógica de la impresión y la declaración, y usar nombres más descriptivos para las variables."
+      },
+      {
+        "solutionFile": "src/main/java/com/example/Ejercicio2.java",
+        "score": 4,
+        "fileFound": true,
+        "feedback": "El código cumple con lo solicitado al declarar e imprimir variables primitivas. Considera agregar comentarios más descriptivos y darle un mejor formato al código (indentación consistente) para mejorar la legibilidad."
+      },
+      {
+        "solutionFile": "src/main/java/com/example/Ejercicio3.java",
+        "score": 4,
+        "fileFound": true,
+        "feedback": "El código cumple con lo solicitado, declarando variables con la convención lowerCamelCase y mostrando sus valores. Se sugiere agregar un comentario explicativo sobre el propósito general de la clase o método, aunque el código es sencillo."
+      },
+      {
+        "solutionFile": "src/main/java/com/example/Ejercicio4.java",
+        "score": 4,
+        "fileFound": true,
+        "feedback": "La solución es correcta y demuestra el uso de constantes. Sin embargo, la descripción de la actividad es 'undefined', por lo que la evaluación es basada en la intención aparente del código. Sería útil tener una descripción más clara del problema a resolver."
+      },
+      {
+        "solutionFile": "src/main/java/com/example/Ejercicio5.java",
+        "score": 3,
+        "fileFound": true,
+        "feedback": "El código cumple con la funcionalidad básica descrita, pero falta la descripción de la actividad para evaluar si la solución es completa. Considera agregar comentarios explicando el propósito de cada sección del código para mejorar la legibilidad."
+      },
+      {
+        "solutionFile": "src/main/java/com/example/Ejercicio6.java",
+        "score": 4,
+        "fileFound": true,
+        "feedback": "La solución cumple con la captura de datos y su impresión. Considera validar las entradas del usuario y utilizar un bloque `try-with-resources` para cerrar el Scanner automáticamente."
+      },
+      {
+        "solutionFile": "src/main/java/com/example/Ejercicio7.java",
+        "score": 4,
+        "fileFound": true,
+        "feedback": "El código funciona y realiza la concatenación como se espera. Sin embargo, la descripción de la actividad es 'undefined', lo que dificulta evaluar si cumple con requisitos específicos no visibles en el código. Sería bueno tener una mejor descripción de la actividad en futuras ocasiones."
+      },
+      {
+        "solutionFile": "src/main/java/com/example/Ejercicio8.java",
+        "score": 5,
+        "fileFound": true,
+        "feedback": "El código demuestra una comprensión clara de las reglas para nombrar variables en Java. El código es limpio, bien comentado y cumple con el objetivo de la actividad."
+      },
+      {
+        "solutionFile": "src/main/java/com/example/Ejercicio9.java",
+        "score": 5,
+        "fileFound": true,
+        "feedback": "Excelente. El código resuelve correctamente el ejercicio, aplicando lowerCamelCase y proporcionando mensajes descriptivos claros. Muy buen trabajo."
+      },
+      {
+        "solutionFile": "src/main/java/com/example/Ejercicio10.java",
+        "score": 4,
+        "fileFound": true,
+        "feedback": "La solución es funcional y bien estructurada, siguiendo buenas prácticas como la declaración de constantes y el uso de Scanner.  Podría mejorarse la descripción del problema para que sea más clara la tarea a realizar."
+      }
+    ],
+    "overallScore": 4.1,
+    "totalActivities": 10,
+    "completedActivities": 10,
+    "summary": "Excelente trabajo. Completó 10/10 actividades (100%) con una calificación promedio de 4.1/5. Demuestra buen dominio de los conceptos.",
+    "recommendations": [
+      "Continuar con el excelente trabajo y mantener la calidad del código"
+    ],
+    "evaluatedAt": "2025-10-04T04:02:44.968Z",
+    "evaluatedBy": "Sistema de Evaluación de No Calificados"
   }
 }
