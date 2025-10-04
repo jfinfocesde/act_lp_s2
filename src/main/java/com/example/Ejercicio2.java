@@ -23,10 +23,7 @@ public class Ejercicio2 {
         System.out.println("Tipo: double, Valor: " + doubleVariable);
         System.out.println("Tipo: char, Valor: " + charVariable);
         System.out.println("Tipo: boolean, Valor: " + booleanVariable);
-    }
-
-    public static void main(String[] args) {
-        ejercicio2();  // Llamada al método ejercicio2
+  
     }
 }
  
